@@ -3137,5 +3137,725 @@
       "cozy": 3
     },
     "fancy": 26
+  },
+  {
+    "id": 11262,
+    "name": "Fireworks",
+    "category": "Cocktail",
+    "alcoholic": true,
+    "glass": "Champagne Flute",
+    "ingredients": [
+      "4 oz Champagne",
+      "1/3 oz gin",
+      "1/2 oz tangerine schnapps"
+    ],
+    "instructions": "Pour into a champagne flute, garnish with a twist of orange, and serve.",
+    "spirit": "Gin",
+    "difficulty": "Easy",
+    "description": "A cocktail perfect for relaxed and calm moments.",
+    "flavor": "Classic & Balanced",
+    "garnish": [
+      "orange"
+    ],
+    "moods": {
+      "energetic": 5.0,
+      "relaxed": 6.0,
+      "romantic": 5.0,
+      "adventurous": 4.0,
+      "celebratory": 3.0,
+      "cozy": 4.0
+    }
+  },
+  {
+    "id": 11676,
+    "name": "Genie Martini",
+    "category": "Cocktail",
+    "alcoholic": true,
+    "glass": "Cocktail Glass",
+    "ingredients": [
+      "2 oz Gordon's(R) gin",
+      "2 oz Martini & Rossi(R) bianco vermouth"
+    ],
+    "instructions": "Pour the ingredients into a shaker filled with ice. Shake quickly and drain into a cockatil glass. Garnish with an olive. Alternatively add olive juice (from the jar) before mixing, according to taste.",
+    "spirit": "Gin",
+    "difficulty": "Easy",
+    "description": "A cocktail perfect for relaxed and calm moments.",
+    "flavor": "Classic & Balanced",
+    "garnish": [
+      "olive"
+    ],
+    "moods": {
+      "energetic": 5.0,
+      "relaxed": 6.0,
+      "romantic": 5.0,
+      "adventurous": 4.0,
+      "celebratory": 3.0,
+      "cozy": 4.0
+    }
+  },
+  {
+    "id": 11746,
+    "name": "Gin Limey",
+    "category": "Cocktail",
+    "alcoholic": true,
+    "glass": "Highball Glass",
+    "ingredients": [
+      "1 1/2 oz Seagram's(R) Lime Twisted gin",
+      "5 oz tonic water"
+    ],
+    "instructions": "An interesting twist on the original. For those who like more lime taste, pour Seagram's Lime-Twisted gin over ice and fill with Tonic Water. Garnish with a slice of lime.",
+    "spirit": "Gin",
+    "difficulty": "Easy",
+    "description": "A cocktail perfect for relaxed and calm moments.",
+    "flavor": "Classic & Balanced",
+    "garnish": [
+      "lime"
+    ],
+    "moods": {
+      "energetic": 5.0,
+      "relaxed": 6.0,
+      "romantic": 5.0,
+      "adventurous": 4.0,
+      "celebratory": 3.0,
+      "cozy": 4.0
+    }
+  },
+  {
+    "id": 11771,
+    "name": "Ginger-bang Champagne",
+    "category": "Cocktail",
+    "alcoholic": true,
+    "glass": "Champagne Flute",
+    "ingredients": [
+      "4 oz Champagne",
+      "1 - 2 dashes simple syrup",
+      "1/4 ozfresh ginger"
+    ],
+    "instructions": "Muddle fresh ginger in the bottom of a bar glass. Add chilled champagne and simple syrup, stir gently and immediately strain into champagne flute. Serve.",
+    "spirit": "Gin",
+    "difficulty": "Easy",
+    "description": "A cocktail perfect for relaxed and calm moments.",
+    "flavor": "Spiced & Warm",
+    "garnish": [],
+    "moods": {
+      "energetic": 5.0,
+      "relaxed": 6.0,
+      "romantic": 5.0,
+      "adventurous": 4.0,
+      "celebratory": 3.0,
+      "cozy": 4.0
+    }
+  },
+  {
+    "id": 11773,
+    "name": "Gingeronno",
+    "category": "Cocktail",
+    "alcoholic": true,
+    "glass": "Highball Glass",
+    "ingredients": [
+      "1 1/2 oz Amaretto Di Saronno(R) liqueur",
+      "6 oz ginger ale"
+    ],
+    "instructions": "Stir ingredients together in a highball glass 3/4 filled with ice cubes. Add a straw and serve.",
+    "spirit": "Gin",
+    "difficulty": "Easy",
+    "description": "A cocktail perfect for relaxed and calm moments.",
+    "flavor": "Spiced & Warm",
+    "garnish": [],
+    "moods": {
+      "energetic": 5.0,
+      "relaxed": 6.0,
+      "romantic": 5.0,
+      "adventurous": 4.0,
+      "celebratory": 3.0,
+      "cozy": 4.0
+    }
+  },
+  {
+    "id": 11981,
+    "name": "Green Gables #2",
+    "category": "Cocktail",
+    "alcoholic": true,
+    "glass": "Cocktail Glass",
+    "ingredients": [
+      "1 1/2 oz sweet vermouth",
+      "1 oz gin",
+      "2 tsp Green Chartreuse(R)"
+    ],
+    "instructions": "Pour the gin, vermouth and Chartreuse into a mixing glass half-filled with crushed ice. Stir well, strain into a cocktail glass, and serve.",
+    "spirit": "Gin",
+    "difficulty": "Easy",
+    "description": "A cocktail perfect for relaxed and calm moments.",
+    "flavor": "Classic & Balanced",
+    "garnish": [],
+    "moods": {
+      "energetic": 5.0,
+      "relaxed": 6.0,
+      "romantic": 5.0,
+      "adventurous": 4.0,
+      "celebratory": 3.0,
+      "cozy": 4.0
+    }
+  },
+  {
+    "id": 12351,
+    "name": "Hong Kong Smog",
+    "category": "Cocktail",
+    "alcoholic": true,
+    "glass": "Cocktail Glass",
+    "ingredients": [
+      "2 1/4 oz Tanqueray(R) gin",
+      "3/4 oz Midori(R) melon liqueur"
+    ],
+    "instructions": "Pour Tanqueray gin and Midori melon liqueur into a shaker half-filled with ice. Stir or shake well. Strain into a chilled cocktail glass, garnish with a melon ball, and serve.",
+    "spirit": "Gin",
+    "difficulty": "Easy",
+    "description": "A cocktail perfect for relaxed and calm moments.",
+    "flavor": "Classic & Balanced",
+    "garnish": [],
+    "moods": {
+      "energetic": 5.0,
+      "relaxed": 6.0,
+      "romantic": 5.0,
+      "adventurous": 4.0,
+      "celebratory": 3.0,
+      "cozy": 4.0
+    }
+  },
+  {
+    "id": 12366,
+    "name": "Hopeless Case",
+    "category": "Cocktail",
+    "alcoholic": true,
+    "glass": "Old-Fashioned Glass",
+    "ingredients": [
+      "1 oz sloe gin",
+      "1/2 oz peppermint schnapps",
+      "3 ozcold cola"
+    ],
+    "instructions": "Pour into an ice-filled old-fashioned glass. Garnish with a slice of lime, and serve.",
+    "spirit": "Gin",
+    "difficulty": "Easy",
+    "description": "A cocktail perfect for relaxed and calm moments.",
+    "flavor": "Classic & Balanced",
+    "garnish": [
+      "lime"
+    ],
+    "moods": {
+      "energetic": 5.0,
+      "relaxed": 6.0,
+      "romantic": 5.0,
+      "adventurous": 4.0,
+      "celebratory": 3.0,
+      "cozy": 4.0
+    }
+  },
+  {
+    "id": 13122,
+    "name": "Kiss in the Dark",
+    "category": "Cocktail",
+    "alcoholic": true,
+    "glass": "Cocktail Glass",
+    "ingredients": [
+      "3/4 oz cherry brandy",
+      "3/4 oz dry vermouth",
+      "3/4 oz gin"
+    ],
+    "instructions": "Stir all ingredients with ice, strain into a cocktail glass, and serve.",
+    "spirit": "Gin",
+    "difficulty": "Easy",
+    "description": "A cocktail perfect for relaxed and calm moments.",
+    "flavor": "Classic & Balanced",
+    "garnish": [],
+    "moods": {
+      "energetic": 5.0,
+      "relaxed": 6.0,
+      "romantic": 5.0,
+      "adventurous": 4.0,
+      "celebratory": 3.0,
+      "cozy": 4.0
+    }
+  },
+  {
+    "id": 13572,
+    "name": "Magique",
+    "category": "Cocktail",
+    "alcoholic": true,
+    "glass": "Cocktail Glass",
+    "ingredients": [
+      "1 1/2 oz dry vermouth",
+      "1 oz gin",
+      "2 tsp creme de cassis"
+    ],
+    "instructions": "Pour the vermouth, gin and creme de cassis into a mixing glass half-filled with ice cubes. Stir well, strain into a cocktail glass, and serve.",
+    "spirit": "Gin",
+    "difficulty": "Easy",
+    "description": "A cocktail perfect for relaxed and calm moments.",
+    "flavor": "Classic & Balanced",
+    "garnish": [],
+    "moods": {
+      "energetic": 5.0,
+      "relaxed": 6.0,
+      "romantic": 5.0,
+      "adventurous": 4.0,
+      "celebratory": 3.0,
+      "cozy": 4.0
+    }
+  },
+  {
+    "id": 14082,
+    "name": "Moulin Rouge Cocktail",
+    "category": "Cocktail",
+    "alcoholic": true,
+    "glass": "Cocktail Glass",
+    "ingredients": [
+      "1 1/2 oz sloe gin",
+      "3/4 oz sweet vermouth",
+      "1 dash bitters"
+    ],
+    "instructions": "Stir ingredients together in a mixing glass half-filled with cracked ice. Strain into a cocktail glass, and serve.",
+    "spirit": "Gin",
+    "difficulty": "Easy",
+    "description": "A cocktail perfect for relaxed and calm moments.",
+    "flavor": "Classic & Balanced",
+    "garnish": [],
+    "moods": {
+      "energetic": 5.0,
+      "relaxed": 6.0,
+      "romantic": 5.0,
+      "adventurous": 4.0,
+      "celebratory": 3.0,
+      "cozy": 4.0
+    }
+  },
+  {
+    "id": 14165,
+    "name": "My Sweet Midori",
+    "category": "Cocktail",
+    "alcoholic": true,
+    "glass": "Highball Glass",
+    "ingredients": [
+      "1 oz Midori(R) melon liqueur",
+      "5 oz ginger ale",
+      "3  lime"
+    ],
+    "instructions": "Pour the Midori melon liqueur into a highball glass filled with ice cubes. Fill with ginger ale, squeeze in the juice from 2 or 3 lime wedges, and serve.",
+    "spirit": "Gin",
+    "difficulty": "Easy",
+    "description": "A cocktail perfect for relaxed and calm moments.",
+    "flavor": "Spiced & Warm",
+    "garnish": [
+      "lime"
+    ],
+    "moods": {
+      "energetic": 5.0,
+      "relaxed": 6.0,
+      "romantic": 5.0,
+      "adventurous": 4.0,
+      "celebratory": 3.0,
+      "cozy": 4.0
+    }
+  },
+  {
+    "id": 14438,
+    "name": "On the Rag",
+    "category": "Cocktail",
+    "alcoholic": true,
+    "glass": "Brandy Snifter",
+    "ingredients": [
+      "1 1/2 oz dry gin",
+      "1/2 oz grenadine syrup",
+      "8 oz ginger ale"
+    ],
+    "instructions": "Pour a shot of gin into a brandy snifter. Add the grenadine and ginger ale, and serve.",
+    "spirit": "Gin",
+    "difficulty": "Easy",
+    "description": "A cocktail perfect for relaxed and calm moments.",
+    "flavor": "Spiced & Warm",
+    "garnish": [],
+    "moods": {
+      "energetic": 5.0,
+      "relaxed": 6.0,
+      "romantic": 5.0,
+      "adventurous": 4.0,
+      "celebratory": 3.0,
+      "cozy": 4.0
+    }
+  },
+  {
+    "id": 14446,
+    "name": "On the Square",
+    "category": "Cocktail",
+    "alcoholic": true,
+    "glass": "Cocktail Glass",
+    "ingredients": [
+      "1 oz apricot brandy",
+      "1/2 oz gin",
+      "1/2 oz Calvados(R) brandy"
+    ],
+    "instructions": "Pour the apricot brandy, gin and Calvados brandy into a mixing glass half-filled with ice cubes. Stir well, strain into a cocktail glass, and serve.",
+    "spirit": "Gin",
+    "difficulty": "Easy",
+    "description": "A cocktail perfect for relaxed and calm moments.",
+    "flavor": "Classic & Balanced",
+    "garnish": [],
+    "moods": {
+      "energetic": 5.0,
+      "relaxed": 6.0,
+      "romantic": 5.0,
+      "adventurous": 4.0,
+      "celebratory": 3.0,
+      "cozy": 4.0
+    }
+  },
+  {
+    "id": 14757,
+    "name": "Pearasite",
+    "category": "Cocktail",
+    "alcoholic": true,
+    "glass": "Highball Glass",
+    "ingredients": [
+      "4 oz Tanqueray(R) gin",
+      "5 oz tonic water",
+      "5 oz pear syrup"
+    ],
+    "instructions": "Pour the gin, tonic water and pear syrup into a highball glass almost filled with ice cubes. Stir well and serve.",
+    "spirit": "Gin",
+    "difficulty": "Easy",
+    "description": "A cocktail perfect for relaxed and calm moments.",
+    "flavor": "Classic & Balanced",
+    "garnish": [],
+    "moods": {
+      "energetic": 5.0,
+      "relaxed": 6.0,
+      "romantic": 5.0,
+      "adventurous": 4.0,
+      "celebratory": 3.0,
+      "cozy": 4.0
+    }
+  },
+  {
+    "id": 15215,
+    "name": "Rafooki Navidad",
+    "category": "Cocktail",
+    "alcoholic": true,
+    "glass": "Margarita Glass",
+    "ingredients": [
+      "3 oz Tanqueray(R) gin",
+      "2 oz lime mix",
+      "1/2  lime",
+      "1 cup ice"
+    ],
+    "instructions": "Add the following ingredients to a blender, and blend until it becomes a frozen mix.....",
+    "spirit": "Gin",
+    "difficulty": "Medium",
+    "description": "A cocktail perfect for relaxed and calm moments.",
+    "flavor": "Classic & Balanced",
+    "garnish": [],
+    "moods": {
+      "energetic": 5.0,
+      "relaxed": 6.0,
+      "romantic": 5.0,
+      "adventurous": 4.0,
+      "celebratory": 3.0,
+      "cozy": 4.0
+    }
+  },
+  {
+    "id": 16175,
+    "name": "Vendome",
+    "category": "Cocktail",
+    "alcoholic": true,
+    "glass": "Cocktail Glass",
+    "ingredients": [
+      "1 oz Dubonnet(R) Rouge vermouth",
+      "1 oz gin",
+      "1 oz dry vermouth"
+    ],
+    "instructions": "Stir all ingredients with ice and strain into a chilled cocktail glass. Garnish with a twist of lemon peel, and serve.",
+    "spirit": "Gin",
+    "difficulty": "Easy",
+    "description": "A cocktail perfect for relaxed and calm moments.",
+    "flavor": "Classic & Balanced",
+    "garnish": [
+      "lemon"
+    ],
+    "moods": {
+      "energetic": 5.0,
+      "relaxed": 6.0,
+      "romantic": 5.0,
+      "adventurous": 4.0,
+      "celebratory": 3.0,
+      "cozy": 4.0
+    }
+  },
+  {
+    "id": 16282,
+    "name": "Wicked Willy",
+    "category": "Cocktail",
+    "alcoholic": true,
+    "glass": "White Wine Glass",
+    "ingredients": [
+      "2 oz red wine",
+      "1/3 oz passion-fruit syrup",
+      "2 oz ginger ale"
+    ],
+    "instructions": "Pour into a frosted wine glass, and serve.",
+    "spirit": "Gin",
+    "difficulty": "Easy",
+    "description": "A cocktail perfect for relaxed and calm moments.",
+    "flavor": "Fruity & Refreshing",
+    "garnish": [],
+    "moods": {
+      "energetic": 5.0,
+      "relaxed": 6.0,
+      "romantic": 5.0,
+      "adventurous": 4.0,
+      "celebratory": 3.0,
+      "cozy": 4.0
+    }
+  },
+  {
+    "id": 437,
+    "name": "Bannister",
+    "category": "Cocktail",
+    "alcoholic": true,
+    "glass": "Cocktail glass",
+    "ingredients": [
+      "1 1/2 oz Gin",
+      "1 oz Applejack",
+      "1 tblsp Pernod",
+      "1/2 tblsp Grenadine"
+    ],
+    "instructions": "In a mixing glass half-filled with crushed ice, combine all of the ingredients. Ster well. Strain into a cocktail glass",
+    "spirit": "Gin",
+    "difficulty": "Medium",
+    "description": "A cocktail perfect for energetic and lively moments.",
+    "flavor": "Classic & Balanced",
+    "garnish": [],
+    "moods": {
+      "energetic": 8.5,
+      "relaxed": 6.5,
+      "romantic": 5.75,
+      "adventurous": 6.75,
+      "celebratory": 5.0,
+      "cozy": 5.0
+    }
+  },
+  {
+    "id": 9277,
+    "name": "Brain Blaster",
+    "category": "Cocktail",
+    "alcoholic": true,
+    "glass": "Cup",
+    "ingredients": [
+      "1.5 oz Hpnotiq(R) liqueur",
+      "0.5 oz tequila",
+      "1 can Red Bull(R) energy drink"
+    ],
+    "instructions": "\"Inventor: Eran HeneburyOrigin: Random experimentation with different liquorsPopular among friends and fraternity brothers.The drink has a peculiar side effect that after consumption of one glass and other hard liquor you consume directly afterwards will have the same taste as the brain blaster Pour 1.5 ounces of hypnotic into the glass/cup, then add .5 ounces of tequila into the glass/cup, add redbull until either the can is empty or the glass is full.\"",
+    "spirit": "Tequila",
+    "difficulty": "Easy",
+    "description": "A cocktail perfect for energetic and lively moments.",
+    "flavor": "Classic & Balanced",
+    "garnish": [],
+    "moods": {
+      "energetic": 9.0,
+      "relaxed": 6.0,
+      "romantic": 5.5,
+      "adventurous": 7.0,
+      "celebratory": 5.0,
+      "cozy": 5.0
+    }
+  },
+  {
+    "id": 11679,
+    "name": "Gentle Bull",
+    "category": "Cocktail",
+    "alcoholic": true,
+    "glass": "Old-Fashioned Glass",
+    "ingredients": [
+      "1 1/2 oz white tequila",
+      "3/4 oz Kahlua(R) coffee liqueur",
+      "1 tbsp cream"
+    ],
+    "instructions": "Shake ingredients in a cocktail shaker with ice. Strain into an old-fashioned glass.",
+    "spirit": "Tequila",
+    "difficulty": "Easy",
+    "description": "A cocktail perfect for energetic and lively moments.",
+    "flavor": "Coffee & Bold",
+    "garnish": [],
+    "moods": {
+      "energetic": 9.0,
+      "relaxed": 6.0,
+      "romantic": 5.5,
+      "adventurous": 7.0,
+      "celebratory": 5.0,
+      "cozy": 5.0
+    }
+  },
+  {
+    "id": 12969,
+    "name": "Kahlua Earthquake",
+    "category": "Cocktail",
+    "alcoholic": true,
+    "glass": "Highball Glass",
+    "ingredients": [
+      "1/2 oz white tequila",
+      "1/2 oz Kahlua(R) coffee liqueur",
+      "5 oz cola"
+    ],
+    "instructions": "Add Kahlua and Tequila to glass, add ice and top up with Cola.",
+    "spirit": "Tequila",
+    "difficulty": "Easy",
+    "description": "A cocktail perfect for energetic and lively moments.",
+    "flavor": "Coffee & Bold",
+    "garnish": [],
+    "moods": {
+      "energetic": 9.0,
+      "relaxed": 6.0,
+      "romantic": 5.5,
+      "adventurous": 7.0,
+      "celebratory": 5.0,
+      "cozy": 5.0
+    }
+  },
+  {
+    "id": 12996,
+    "name": "Kamora Mexican Coffee",
+    "category": "Cocktail",
+    "alcoholic": true,
+    "glass": "Irish Coffee Cup",
+    "ingredients": [
+      "1/2 oz white tequila",
+      "1/2 oz Kahlua(R) coffee liqueur",
+      "1 cup coffee"
+    ],
+    "instructions": "Add Kahlua and tequila to your hot cup of coffee.",
+    "spirit": "Tequila",
+    "difficulty": "Easy",
+    "description": "A cocktail perfect for energetic and lively moments.",
+    "flavor": "Coffee & Bold",
+    "garnish": [],
+    "moods": {
+      "energetic": 9.0,
+      "relaxed": 6.0,
+      "romantic": 5.5,
+      "adventurous": 7.0,
+      "celebratory": 5.0,
+      "cozy": 5.0
+    }
+  },
+  {
+    "id": 15306,
+    "name": "Red Lemon",
+    "category": "Cocktail",
+    "alcoholic": true,
+    "glass": "Pint glass",
+    "ingredients": [
+      "Patron(R) silver tequila",
+      "Organic brand lemonade",
+      "Rose's Red grenadine syrup"
+    ],
+    "instructions": "\"Inventory  - Steve SkowronskiOrigin - Mokena,IL.Where it is Popluar - at my house and on my block.I was just looking for something cool and refreshing to drink one hot summer evening. That is when the first Red lemon was born.I've tried this with a few other tequilas and lemonades and it definately tastes the best with Patron and Organic's brand lemnade.2 shots of Patron Silver Tequila in a pint glass.Fill glass with ice, add Organic brand Lemonade,add a splash of Rose's Red Grenadine and let it settle to the bottom. Garnish with a lemon slice or ledge. Salting the rim of the glass is optional. Either way it is a Great Summer Time drink and simple to make.\"",
+    "spirit": "Tequila",
+    "difficulty": "Easy",
+    "description": "A cocktail perfect for energetic and lively moments.",
+    "flavor": "Classic & Balanced",
+    "garnish": [
+      "lemon"
+    ],
+    "moods": {
+      "energetic": 9.0,
+      "relaxed": 6.0,
+      "romantic": 5.5,
+      "adventurous": 7.0,
+      "celebratory": 5.0,
+      "cozy": 5.0
+    }
+  },
+  {
+    "id": 16080,
+    "name": "Triple G",
+    "category": "Cocktail",
+    "alcoholic": true,
+    "glass": "Pint glass",
+    "ingredients": [
+      "12 ozLipton Green Apple green tea",
+      "2 oz tequila",
+      "crushed or cubed ice"
+    ],
+    "instructions": "Very simple drink to do and has great sour taste and a bit of bite from the oak aged tequila. This can be a good party drink or to enjoy chillin at the beach.  I created this drink at my pad when the only thing I had to mix with the tequila was the Brisk Iced tea.Take a chilled pint glass and fill to half with ice, then pour tequila over ice and fill to the top with Lipton Brisk Iced Green apple Green Tea.",
+    "spirit": "Tequila",
+    "difficulty": "Easy",
+    "description": "A cocktail perfect for energetic and lively moments.",
+    "flavor": "Classic & Balanced",
+    "garnish": [],
+    "moods": {
+      "energetic": 9.0,
+      "relaxed": 6.0,
+      "romantic": 5.5,
+      "adventurous": 7.0,
+      "celebratory": 5.0,
+      "cozy": 5.0
+    }
+  },
+  {
+    "id": 8344,
+    "name": "Apricot Jack",
+    "category": "Cocktail",
+    "alcoholic": true,
+    "glass": "Sour Glass",
+    "ingredients": [
+      "1 1/2 oz Jack Daniel's(R) Tennessee whiskey",
+      "1 oz Hiram Walker(R) apricot brandy",
+      "3/4 oz apricot nectar",
+      "1 oz sweet and sour mix"
+    ],
+    "instructions": "Pour two shots of Jack Daniels into a whiskey sour glass. Add one shot of Apricot Brandy. Combine with apricot nectar and sweet and sour mix. Top with a lemon, cherry, or orange slice. Stir, and serve.",
+    "spirit": "Whiskey",
+    "difficulty": "Medium",
+    "description": "A cocktail perfect for cozy and comforting moments.",
+    "flavor": "Classic & Balanced",
+    "garnish": [
+      "cherry",
+      "lemon",
+      "orange"
+    ],
+    "moods": {
+      "energetic": 7.0,
+      "relaxed": 3.0,
+      "romantic": 6.0,
+      "adventurous": 6.0,
+      "celebratory": 5.0,
+      "cozy": 9.0
+    }
+  },
+  {
+    "id": 11001,
+    "name": "Dungeon Master",
+    "category": "Cocktail",
+    "alcoholic": true,
+    "glass": "Cocktail Glass",
+    "ingredients": [
+      "1 1/2 oz Jack Daniel's(R) Tennessee whiskey",
+      "1/2 oz cherry brandy",
+      "2 splashes Amer Picon(R) orange bitters",
+      "1 tsp sugar syrup"
+    ],
+    "instructions": "Stir ingredients in a cocktail shaker with ice. Strain into glass.",
+    "spirit": "Whiskey",
+    "difficulty": "Medium",
+    "description": "A cocktail perfect for cozy and comforting moments.",
+    "flavor": "Fruity & Refreshing",
+    "garnish": [],
+    "moods": {
+      "energetic": 7.0,
+      "relaxed": 3.0,
+      "romantic": 6.0,
+      "adventurous": 6.0,
+      "celebratory": 5.0,
+      "cozy": 9.0
+    }
   }
 ]
