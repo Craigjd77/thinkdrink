@@ -350,6 +350,31 @@ body {
     margin-bottom: 1rem;
 }
 
+.match-reason {
+    margin: 0.5rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.match-badge {
+    background: rgba(74, 222, 128, 0.2);
+    color: #4ade80;
+    padding: 0.25rem 0.5rem;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid rgba(74, 222, 128, 0.3);
+}
+
+.mood-count {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.7rem;
+    text-align: center;
+    font-style: italic;
+}
+
 .card-ingredients {
     display: flex;
     flex-wrap: wrap;

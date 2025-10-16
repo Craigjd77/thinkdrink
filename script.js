@@ -217,42 +217,129 @@ class ThinkDrinkApp {
     
     generateRecommendations() {
         const currentMoods = this.getCurrentMoodValues();
-        const hasActiveMoods = Object.values(currentMoods).some(value => value > 5);
+        console.log('Current mood values:', currentMoods);
         
-        if (!hasActiveMoods) {
-            // If no mood is particularly high, show random drinks
-            this.recommendedDrinks = [...this.drinks].sort(() => 0.5 - Math.random()).slice(0, 6);
-            return;
-        }
+        // Calculate total mood intensity (like rolling 6 dice)
+        const totalMoodIntensity = Object.values(currentMoods).reduce((sum, value) => sum + value, 0);
+        const averageMood = totalMoodIntensity / 6;
         
-        // Calculate weighted scores for each drink based on mood sliders
+        console.log(`Total mood intensity: ${totalMoodIntensity}/60, Average: ${averageMood.toFixed(1)}`);
+        
+        // Find the dominant mood(s) - highest values
+        const sortedMoods = Object.entries(currentMoods)
+            .sort(([,a], [,b]) => b - a)
+            .slice(0, 3); // Top 3 moods
+        
+        console.log('Top 3 moods:', sortedMoods);
+        
+        // Calculate sophisticated matching scores for each drink
         this.recommendedDrinks = this.drinks
             .map(drink => {
-                if (!drink.moods) return { ...drink, weightedScore: 0 };
+                if (!drink.moods) {
+                    // If drink has no mood data, give it a random low score
+                    return { ...drink, weightedScore: Math.random() * 10, matchReason: 'No mood data' };
+                }
                 
-                let weightedScore = 0;
-                Object.keys(currentMoods).forEach(mood => {
-                    const userPreference = currentMoods[mood];
-                    const drinkScore = drink.moods[mood] || 5;
+                let totalScore = 0;
+                let matchFactors = [];
+                
+                // 1. DOMINANT MOOD MATCHING (40% of score)
+                // Check if drink matches the user's strongest mood preferences
+                const dominantMood = sortedMoods[0];
+                if (dominantMood) {
+                    const [moodName, userValue] = dominantMood;
+                    const drinkValue = drink.moods[moodName] || 5;
                     
-                    // Higher user preference + higher drink score = higher weighted score
-                    // But also consider when user preference is low (they don't want that mood)
-                    if (userPreference >= 7) {
-                        // User wants this mood - higher drink score is better
-                        weightedScore += drinkScore * (userPreference / 10);
-                    } else if (userPreference <= 3) {
-                        // User doesn't want this mood - lower drink score is better
-                        weightedScore += (11 - drinkScore) * ((11 - userPreference) / 10);
-                    } else {
-                        // Neutral - moderate scoring
-                        weightedScore += Math.abs(drinkScore - userPreference) * 0.3;
+                    if (userValue >= 7) {
+                        // User wants this mood strongly - reward drinks that match
+                        const dominantScore = drinkValue * (userValue / 10) * 0.4;
+                        totalScore += dominantScore;
+                        matchFactors.push(`${moodName}: ${drinkValue}/10 (user wants ${userValue})`);
+                    }
+                }
+                
+                // 2. MOOD PROFILE SIMILARITY (30% of score)
+                // Compare overall mood profile similarity
+                let profileSimilarity = 0;
+                let moodCount = 0;
+                
+                Object.keys(currentMoods).forEach(mood => {
+                    const userValue = currentMoods[mood];
+                    const drinkValue = drink.moods[mood] || 5;
+                    
+                    if (userValue >= 6) {
+                        // User wants this mood - reward similarity
+                        const similarity = Math.max(0, 10 - Math.abs(userValue - drinkValue));
+                        profileSimilarity += similarity;
+                        moodCount++;
+                    } else if (userValue <= 4) {
+                        // User doesn't want this mood - reward opposite
+                        const opposite = Math.max(0, 10 - Math.abs((10 - userValue) - drinkValue));
+                        profileSimilarity += opposite;
+                        moodCount++;
                     }
                 });
                 
-                return { ...drink, weightedScore };
+                if (moodCount > 0) {
+                    totalScore += (profileSimilarity / moodCount) * 0.3;
+                }
+                
+                // 3. MOOD INTENSITY MATCHING (20% of score)
+                // Match the overall intensity level
+                const drinkIntensity = Object.values(drink.moods).reduce((sum, val) => sum + val, 0) / 6;
+                const intensityMatch = Math.max(0, 10 - Math.abs(averageMood - drinkIntensity));
+                totalScore += intensityMatch * 0.2;
+                
+                // 4. MOOD COMBINATION BONUS (10% of score)
+                // Bonus for drinks that match multiple user preferences
+                let combinationBonus = 0;
+                let matchingMoods = 0;
+                
+                Object.keys(currentMoods).forEach(mood => {
+                    const userValue = currentMoods[mood];
+                    const drinkValue = drink.moods[mood] || 5;
+                    
+                    if (userValue >= 6 && drinkValue >= 6) {
+                        matchingMoods++;
+                    } else if (userValue <= 4 && drinkValue <= 4) {
+                        matchingMoods++;
+                    }
+                });
+                
+                combinationBonus = (matchingMoods / 6) * 10;
+                totalScore += combinationBonus * 0.1;
+                
+                // Determine match reason for display
+                let matchReason = '';
+                if (dominantMood && drink.moods[dominantMood[0]] >= 7) {
+                    matchReason = `Perfect for ${dominantMood[0]} mood`;
+                } else if (matchingMoods >= 3) {
+                    matchReason = `Matches ${matchingMoods} mood preferences`;
+                } else if (intensityMatch >= 8) {
+                    matchReason = `Matches your intensity level`;
+                } else {
+                    matchReason = `Good overall match`;
+                }
+                
+                return { 
+                    ...drink, 
+                    weightedScore: totalScore,
+                    matchReason,
+                    dominantMood: dominantMood ? dominantMood[0] : null,
+                    intensityMatch: intensityMatch.toFixed(1),
+                    matchingMoods
+                };
             })
+            .filter(drink => drink.weightedScore > 0) // Only drinks with some match
             .sort((a, b) => b.weightedScore - a.weightedScore)
             .slice(0, 6);
+            
+        console.log('Top recommended drinks:', this.recommendedDrinks.map(d => ({
+            name: d.name,
+            score: d.weightedScore.toFixed(2),
+            reason: d.matchReason,
+            dominantMood: d.dominantMood
+        })));
     }
     
     renderRecommended() {
@@ -260,34 +347,25 @@ class ThinkDrinkApp {
         const currentMoods = this.getCurrentMoodValues();
         
         grid.innerHTML = this.recommendedDrinks.map(drink => {
-            // Find the mood that best matches this drink
-            let bestMood = 'Random';
-            let bestScore = 0;
-            
-            if (drink.moods) {
-                Object.keys(drink.moods).forEach(mood => {
-                    const userPreference = currentMoods[mood] || 5;
-                    const drinkScore = drink.moods[mood];
-                    
-                    // Calculate match score
-                    const matchScore = drinkScore * (userPreference / 10);
-                    if (matchScore > bestScore) {
-                        bestScore = matchScore;
-                        bestMood = mood;
-                    }
-                });
-            }
+            // Show the sophisticated match information
+            const matchScore = Math.round(drink.weightedScore * 10) / 10;
+            const dominantMood = drink.dominantMood || 'Balanced';
+            const matchReason = drink.matchReason || 'Good match';
             
             return `
                 <div class="recommended-card" data-drink-id="${drink.id}">
                     <div class="card-header">
                         <h4>${drink.name}</h4>
                         <div class="mood-score">
-                            <span class="score-label">${bestMood}</span>
-                            <span class="score-value">${drink.moods ? drink.moods[bestMood] || Math.floor(Math.random() * 5) + 1 : Math.floor(Math.random() * 5) + 1}</span>
+                            <span class="score-label">${dominantMood}</span>
+                            <span class="score-value">${matchScore.toFixed(1)}</span>
                         </div>
                     </div>
                     <p class="card-description">${drink.description}</p>
+                    <div class="match-reason">
+                        <span class="match-badge">${matchReason}</span>
+                        ${drink.matchingMoods > 0 ? `<span class="mood-count">${drink.matchingMoods} moods match</span>` : ''}
+                    </div>
                     <div class="card-ingredients">
                         ${drink.ingredients.slice(0, 2).map(ingredient => 
                             `<span class="ingredient">${ingredient}</span>`
@@ -680,17 +758,25 @@ class ThinkDrinkApp {
         drinkCount.textContent = `${this.recommendedDrinks.length} recommendation${this.recommendedDrinks.length !== 1 ? 's' : ''}`;
         
         const currentMoods = this.getCurrentMoodValues();
-        const activeMoods = Object.entries(currentMoods)
-            .filter(([mood, value]) => value > 5)
-            .sort((a, b) => b[1] - a[1])
+        const totalIntensity = Object.values(currentMoods).reduce((sum, val) => sum + val, 0);
+        const averageMood = totalIntensity / 6;
+        
+        // Find dominant moods
+        const sortedMoods = Object.entries(currentMoods)
+            .sort(([,a], [,b]) => b - a)
             .slice(0, 2);
         
-        let statusText = 'Showing personalized recommendations';
-        if (activeMoods.length > 0) {
-            const moodNames = activeMoods.map(([mood, value]) => `${mood} (${value})`);
-            statusText = `Perfect for your ${moodNames.join(' & ')} mood`;
+        let statusText = '';
+        if (sortedMoods.length > 0 && sortedMoods[0][1] >= 7) {
+            const dominantMood = sortedMoods[0][0];
+            const intensity = sortedMoods[0][1];
+            statusText = `🎯 Dominant: ${dominantMood} (${intensity}/10) - ${averageMood.toFixed(1)} avg intensity`;
+        } else if (averageMood > 6) {
+            statusText = `⚡ High energy mood (${averageMood.toFixed(1)}/10 avg) - Perfect for party drinks!`;
+        } else if (averageMood < 4) {
+            statusText = `😌 Relaxed mood (${averageMood.toFixed(1)}/10 avg) - Great for chill drinks`;
         } else {
-            statusText = 'Discovering new drinks for you';
+            statusText = `🎲 Balanced mood (${averageMood.toFixed(1)}/10 avg) - Mix of recommendations`;
         }
         
         filterStatus.textContent = statusText;
