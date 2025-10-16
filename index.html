@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThinkDrink - Cocktail Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#1a1a1a">
+    <meta name="description" content="Discover and explore cocktails with ThinkDrink">
+    <link rel="apple-touch-icon" href="icons/icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192x192.png">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="header-left">
+                    <h1 class="app-title">ThinkDrink</h1>
+                    <p class="app-subtitle">Find your perfect cocktail mood</p>
+                </div>
+                <div class="header-right">
+                    <button class="profile-btn" id="profileBtn">👤</button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Mood Sliders -->
+        <section class="mood-selector">
+            <h2>Adjust your mood</h2>
+            <div class="mood-sliders">
+                <div class="mood-slider-container">
+                    <div class="mood-label-container">
+                        <span class="mood-icon">⚡</span>
+                        <span class="mood-label">Energetic</span>
+                        <span class="mood-value" id="energeticValue">5</span>
+                    </div>
+                    <input type="range" class="mood-slider" id="energeticSlider" min="1" max="10" value="5" data-mood="energetic">
+                </div>
+                
+                <div class="mood-slider-container">
+                    <div class="mood-label-container">
+                        <span class="mood-icon">😌</span>
+                        <span class="mood-label">Relaxed</span>
+                        <span class="mood-value" id="relaxedValue">5</span>
+                    </div>
+                    <input type="range" class="mood-slider" id="relaxedSlider" min="1" max="10" value="5" data-mood="relaxed">
+                </div>
+                
+                <div class="mood-slider-container">
+                    <div class="mood-label-container">
+                        <span class="mood-icon">💕</span>
+                        <span class="mood-label">Romantic</span>
+                        <span class="mood-value" id="romanticValue">5</span>
+                    </div>
+                    <input type="range" class="mood-slider" id="romanticSlider" min="1" max="10" value="5" data-mood="romantic">
+                </div>
+                
+                <div class="mood-slider-container">
+                    <div class="mood-label-container">
+                        <span class="mood-icon">🌍</span>
+                        <span class="mood-label">Adventurous</span>
+                        <span class="mood-value" id="adventurousValue">5</span>
+                    </div>
+                    <input type="range" class="mood-slider" id="adventurousSlider" min="1" max="10" value="5" data-mood="adventurous">
+                </div>
+                
+                <div class="mood-slider-container">
+                    <div class="mood-label-container">
+                        <span class="mood-icon">🎉</span>
+                        <span class="mood-label">Celebratory</span>
+                        <span class="mood-value" id="celebratoryValue">5</span>
+                    </div>
+                    <input type="range" class="mood-slider" id="celebratorySlider" min="1" max="10" value="5" data-mood="celebratory">
+                </div>
+                
+                <div class="mood-slider-container">
+                    <div class="mood-label-container">
+                        <span class="mood-icon">🔥</span>
+                        <span class="mood-label">Cozy</span>
+                        <span class="mood-value" id="cozyValue">5</span>
+                    </div>
+                    <input type="range" class="mood-slider" id="cozySlider" min="1" max="10" value="5" data-mood="cozy">
+                </div>
+            </div>
+            
+            <div class="mood-actions">
+                <button class="action-btn reset-moods" id="resetMoodsBtn">
+                    <span class="btn-icon">🔄</span>
+                    <span class="btn-text">Reset</span>
+                </button>
+                <button class="action-btn random-moods" id="randomMoodsBtn">
+                    <span class="btn-icon">🎲</span>
+                    <span class="btn-text">Random</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Quick Actions -->
+            <div class="quick-actions">
+                <button class="action-btn surprise-btn" id="surpriseBtn">
+                    <span class="btn-icon">🎲</span>
+                    <span class="btn-text">Surprise Me</span>
+                </button>
+                <button class="action-btn ingredients-btn" id="ingredientsBtn">
+                    <span class="btn-icon">🥃</span>
+                    <span class="btn-text">What I Have</span>
+                </button>
+                <button class="action-btn favorites-btn" id="favoritesBtn">
+                    <span class="btn-icon">❤️</span>
+                    <span class="btn-text">My Favorites</span>
+                </button>
+            </div>
+
+            <!-- Recommended Section -->
+            <section class="recommended-section">
+                <h3>Recommended for you</h3>
+                <div class="recommended-grid" id="recommendedGrid">
+                    <!-- Recommended drinks will be populated here -->
+                </div>
+            </section>
+
+            <!-- Drink Grid -->
+            <div class="drink-grid" id="drinkGrid">
+                <!-- Drinks will be populated here by JavaScript -->
+            </div>
+
+            <!-- Loading Indicator -->
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <p>Loading drinks...</p>
+            </div>
+
+            <!-- No Results -->
+            <div class="no-results" id="noResults" style="display: none;">
+                <h3>No drinks found</h3>
+                <p>Try adjusting your search or filters</p>
+            </div>
+        </main>
+
+        <!-- Drink Detail Modal -->
+        <div class="modal-overlay" id="drinkModal">
+            <div class="modal-content">
+                <button class="modal-close" id="modalClose">&times;</button>
+                <div class="modal-body" id="modalBody">
+                    <!-- Drink details will be populated here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Toast Notifications -->
+        <div class="toast" id="toast">
+            <span id="toastMessage"></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

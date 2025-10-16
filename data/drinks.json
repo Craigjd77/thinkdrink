@@ -1,0 +1,3141 @@
+[
+  {
+    "id": 415,
+    "name": "Banana Cow",
+    "spirit": "Rum",
+    "difficulty": "Easy",
+    "description": "A creamy cocktail with light rum, creme de banane, and cream.",
+    "ingredients": [
+      "Light rum",
+      "Creme de Banane",
+      "Cream",
+      "Grenadine",
+      "Banana",
+      "Nutmeg"
+    ],
+    "flavor": "Sweet, Creamy, Tropical",
+    "instructions": "Shake rum, creme de banana, cream, and grenadine with crushed ice and strain into a cocktail glass. Decorate with the banana slice, sprinkle nutmeg on top, and serve.",
+    "glass": "Cocktail glass",
+    "garnish": "Banana slice, Nutmeg",
+    "moods": {
+      "energetic": 7,
+      "relaxed": 5,
+      "romantic": 5,
+      "celebratory": 6,
+      "cozy": 3.5
+    },
+    "fancy": 26.5
+  },
+  {
+    "id": 453,
+    "name": "Barcardi Volcano",
+    "spirit": "Rum",
+    "difficulty": "Hard",
+    "description": "A flaming cocktail with Bacardi 151 proof rum and Everclear.",
+    "ingredients": [
+      "Lime",
+      "Coca-Cola",
+      "151 proof rum",
+      "Everclear"
+    ],
+    "flavor": "Strong, Fiery, Bold",
+    "instructions": "Put the juice of 1/2 Lime in glass, then pour in cola and barcardi dark. Top up with Everclear. Light. Figure out how to drink it!",
+    "glass": "Old-fashioned glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 7,
+      "relaxed": 5,
+      "romantic": 5,
+      "celebratory": 6,
+      "cozy": 3.5
+    },
+    "fancy": 26.5
+  },
+  {
+    "id": 456,
+    "name": "Barrier Breaker",
+    "spirit": "Rum",
+    "difficulty": "Easy",
+    "description": "A coffee-based cocktail with dark rum and coffee liqueur.",
+    "ingredients": [
+      "Dark rum",
+      "Galliano",
+      "Dark Creme de Cacao",
+      "Coffee",
+      "Ice"
+    ],
+    "flavor": "Rich, Coffee, Sweet",
+    "instructions": "Pour all of the ingreedients into an Irish coffee glass filled with crushed ice. Stir well.",
+    "glass": "Irish coffee cup",
+    "garnish": "None",
+    "moods": {
+      "energetic": 7,
+      "relaxed": 5,
+      "romantic": 5,
+      "celebratory": 6,
+      "cozy": 3.5
+    },
+    "fancy": 26.5
+  },
+  {
+    "id": 16094,
+    "name": "Tropical Legionaire",
+    "spirit": "Rum",
+    "difficulty": "Easy",
+    "description": "Originated from the Jamaican Iced Tea, save the lack of parts needed to make it. It has a sweet flavor that reduces the numbing of the Bacardi and smoothes out the vodka. Great to make in quantity for parties just like a margarita pitcher or sangria because of its sweet flavor and easy drinkability.",
+    "ingredients": [
+      "Bacardi(R) white rum",
+      "triple sec",
+      "vodka",
+      "sweet and sour mix",
+      "pineapple juice",
+      "pineapple"
+    ],
+    "flavor": "Sweet, Tropical, Fruity",
+    "instructions": "Pour out the rum, triple sec, and vodka in a shaker with several cubes of ice. Swirl, then add the sweet and sour as well as the pineapple juice. Shake till the ice dissolves, then glass and garnish with the slice of pineapple. **A can of pineapple slices will also work for both the juice and pineapple slice**",
+    "glass": "Highball Glass",
+    "garnish": "Pineapple slice",
+    "moods": {
+      "energetic": 8,
+      "relaxed": 4,
+      "romantic": 8,
+      "celebratory": 6,
+      "cozy": 9
+    },
+    "fancy": 35
+  },
+  {
+    "id": 8729,
+    "name": "Becky's Nectar",
+    "spirit": "Rum",
+    "difficulty": "Easy",
+    "description": "A tropical cocktail with coconut rum and raspberry vodka.",
+    "ingredients": [
+      "Malibu(R) coconut rum",
+      "Stoli(R) Razberi vodka",
+      "cranberry juice",
+      "pineapple juice",
+      "Sprite(R) soda"
+    ],
+    "flavor": "Tropical, Fruity, Sweet",
+    "instructions": "Add everything to glass with ice, stir.",
+    "glass": "Cocktail Glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 9,
+      "relaxed": 3.5,
+      "romantic": 8.5,
+      "celebratory": 6,
+      "cozy": 9
+    },
+    "fancy": 36
+  },
+  {
+    "id": 13220,
+    "name": "Lakeside Lemonade",
+    "spirit": "Vodka",
+    "difficulty": "Easy",
+    "description": "A refreshing lemonade cocktail with citron vodka and triple sec.",
+    "ingredients": [
+      "Absolut(R) Citron vodka",
+      "triple sec",
+      "sweet and sour mix",
+      "lemon-lime soda",
+      "cranberry juice"
+    ],
+    "flavor": "Citrus, Sweet, Refreshing",
+    "instructions": "Pour the Absolut Citron and triple sec into a highball glass filled with ice cubes. Almost fill with sweet and sour mix, and add a splash of lemon-lime soda and splash of cranberry juice. Garnish with a slice of lemon, and serve.",
+    "glass": "Highball Glass",
+    "garnish": "Lemon slice",
+    "moods": {
+      "energetic": 9,
+      "relaxed": 3.5,
+      "romantic": 8.5,
+      "celebratory": 6,
+      "cozy": 9
+    },
+    "fancy": 36
+  },
+  {
+    "id": 13985,
+    "name": "Misty Breeze",
+    "spirit": "Rum",
+    "difficulty": "Easy",
+    "description": "A tropical cocktail with mango rum and tropical juice.",
+    "ingredients": [
+      "Captain Morgan(R) Parrot Bay mango rum",
+      "vodka",
+      "pine-orange-banana juice",
+      "maraschino cherry",
+      "Sprite(R) soda"
+    ],
+    "flavor": "Tropical, Fruity, Sweet",
+    "instructions": "Shake in shaker with ice. Garnish with a piece of pineapple or banana with a little maraschino cherry juice and cherry on bottom.",
+    "glass": "Cocktail Glass",
+    "garnish": "Pineapple or banana, maraschino cherry",
+    "moods": {
+      "energetic": 9,
+      "relaxed": 3.5,
+      "romantic": 8.5,
+      "celebratory": 6,
+      "cozy": 9
+    },
+    "fancy": 36
+  },
+  {
+    "id": 14782,
+    "name": "Pharoah's Paradise",
+    "spirit": "Vodka",
+    "difficulty": "Medium",
+    "description": "A tropical cocktail with vodka, mango rum, and blue curacao.",
+    "ingredients": [
+      "vodka",
+      "Malibu(R) mango rum",
+      "DeKuyper(R) Island Blue Pucker schnapps",
+      "pineapple juice",
+      "7-Up(R) soda"
+    ],
+    "flavor": "Tropical, Blue, Fruity",
+    "instructions": "Fill mixing tin with ice, pineapple juice, rum, vodka, and Blue Pucker. Shake well. Strain into cocktail glass and add a splash of 7-up. Garnish with an orange slice/wedge and cherry spear.",
+    "glass": "Cocktail Glass",
+    "garnish": "Orange slice/wedge, cherry spear",
+    "moods": {
+      "energetic": 9,
+      "relaxed": 3.5,
+      "romantic": 8.5,
+      "celebratory": 6,
+      "cozy": 9
+    },
+    "fancy": 36
+  },
+  {
+    "id": 11723,
+    "name": "Gin Aloha",
+    "spirit": "Gin",
+    "difficulty": "Easy",
+    "description": "A tropical gin cocktail with pineapple juice and orange bitters.",
+    "ingredients": [
+      "gin",
+      "triple sec",
+      "orange bitters",
+      "pineapple juice"
+    ],
+    "flavor": "Tropical, Citrus, Smooth",
+    "instructions": "Shake ingredients in a cocktail shaker with ice. Strain into a cocktail glass.",
+    "glass": "Cocktail Glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 6,
+      "relaxed": 10,
+      "romantic": 6,
+      "celebratory": 7,
+      "cozy": 8
+    },
+    "fancy": 37
+  },
+  {
+    "id": 13861,
+    "name": "Mexican Wife Beater",
+    "spirit": "Tequila",
+    "difficulty": "Easy",
+    "description": "A beer cocktail with tequila, triple sec, and lager.",
+    "ingredients": [
+      "Stella Artois(R) lager",
+      "gold tequila",
+      "triple sec",
+      "lemon juice"
+    ],
+    "flavor": "Beer, Citrus, Strong",
+    "instructions": "Pour the lemon juice, gold tequila and triple into a cocktail shaker half-filled with ice cubes. Shake well and strain into a beer glass. Fill glass with Stella Artois lager, and serve.",
+    "glass": "Beer Mug",
+    "garnish": "None",
+    "moods": {
+      "energetic": 6,
+      "relaxed": 10,
+      "romantic": 6,
+      "celebratory": 7,
+      "cozy": 8
+    },
+    "fancy": 37
+  },
+  {
+    "id": 14250,
+    "name": "New Moon",
+    "spirit": "Gin",
+    "difficulty": "Easy",
+    "description": "A gin and tonic variation with triple sec and lime juice.",
+    "ingredients": [
+      "gin",
+      "triple sec",
+      "Rose's(R) lime juice",
+      "tonic water"
+    ],
+    "flavor": "Citrus, Bitter, Refreshing",
+    "instructions": "Pour the gin, triple sec and Rose's lime juice into an old-fashioned glass filled with ice cubes. Stir well. Fill with tonic water, or add to taste. Stir again gently. Garnish with a lime wedge, and serve.",
+    "glass": "Old-Fashioned Glass",
+    "garnish": "Lime wedge",
+    "moods": {
+      "energetic": 6,
+      "relaxed": 10,
+      "romantic": 6,
+      "celebratory": 7,
+      "cozy": 8
+    },
+    "fancy": 37
+  },
+  {
+    "id": 5775,
+    "name": "Traffic Light Cooler",
+    "spirit": "Tequila",
+    "difficulty": "Medium",
+    "description": "A layered cocktail that creates the colors of a traffic light.",
+    "ingredients": [
+      "Midori melon liqueur",
+      "Gold tequila",
+      "Sour mix",
+      "Orange juice",
+      "Sloe gin"
+    ],
+    "flavor": "Layered, Fruity, Colorful",
+    "instructions": "Into pilsner glass filled with ice cubes, first pour the melon liqueur, then the tequila, to create a green layer. Add sour mix. Slowly pour orange juice against side of glass to create the yellow layer. Add a few more ice cubes, if needed. Carefully float the sloe gin on top for the red layer. Garnish with a cherry and lemon and lime wheels. Stir just before drinking.",
+    "glass": "Beer pilsner",
+    "garnish": "Cherry, lemon and lime wheels",
+    "moods": {
+      "energetic": 7,
+      "relaxed": 10,
+      "romantic": 6,
+      "celebratory": 6,
+      "cozy": 8
+    },
+    "fancy": 37
+  },
+  {
+    "id": 8589,
+    "name": "Banana Margarita",
+    "spirit": "Tequila",
+    "difficulty": "Easy",
+    "description": "A banana-flavored margarita with creme de bananes and tequila.",
+    "ingredients": [
+      "creme de bananes",
+      "gold tequila",
+      "triple sec",
+      "lemon juice",
+      "banana"
+    ],
+    "flavor": "Tropical, Banana, Sweet",
+    "instructions": "Apply lemon juice to the rim of a frosted double-cocktail glass, and dip into caster sugar. Fill the glass with crushed ice, add the ingredients and blend briefly. Serve with a lemon juice-dipped slice of banana.",
+    "glass": "Cocktail Glass",
+    "garnish": "Banana slice",
+    "moods": {
+      "energetic": 7,
+      "relaxed": 10,
+      "romantic": 6,
+      "celebratory": 6,
+      "cozy": 8
+    },
+    "fancy": 37
+  },
+  {
+    "id": 8848,
+    "name": "Birdman's Delight",
+    "spirit": "Whiskey",
+    "difficulty": "Easy",
+    "description": "A bourbon cocktail with root beer schnapps and 7-Up.",
+    "ingredients": [
+      "Jim Beam(R) bourbon whiskey",
+      "root beer schnapps",
+      "7-Up(R) soda"
+    ],
+    "flavor": "Root Beer, Sweet, Smooth",
+    "instructions": "Shake ingredients in a cocktail shaker with ice. Strain into glass.",
+    "glass": "Collins Glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 6,
+      "relaxed": 6,
+      "romantic": 9,
+      "celebratory": 7,
+      "cozy": 9
+    },
+    "fancy": 37
+  },
+  {
+    "id": 8864,
+    "name": "Billy Bishop",
+    "spirit": "Gin",
+    "difficulty": "Easy",
+    "description": "Named after a Canadian World War II hero, this cocktail represents different countries with its ingredients.",
+    "ingredients": [
+      "gin",
+      "Cointreau(R) orange liqueur",
+      "rye whiskey",
+      "orange juice"
+    ],
+    "flavor": "Citrus, Smooth, Complex",
+    "instructions": "Fill an old-fashioned glass 2/3 full with ice. Pour in the English gin and Cointreau. Put a splash of rye whiskey on top. Finish by filling the glass with orange juice.",
+    "glass": "Old-Fashioned Glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 7,
+      "relaxed": 10,
+      "romantic": 6,
+      "celebratory": 6,
+      "cozy": 8
+    },
+    "fancy": 37
+  },
+  {
+    "id": 9439,
+    "name": "Bullet to the Head",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "A strong mixed drink with vodka, rum, tequila, and gin.",
+    "ingredients": [
+      "vodka",
+      "light rum",
+      "tequila",
+      "gin",
+      "sweet and sour mix",
+      "cola"
+    ],
+    "flavor": "Strong, Mixed, Sweet",
+    "instructions": "Fill a collins glass with ice, pour in the ingredients as listed, then pour the glass' contents into a blender, and use the blender to make it smooth. Pour back into the glass, and serve.",
+    "glass": "Collins Glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 6,
+      "relaxed": 9,
+      "romantic": 6,
+      "celebratory": 7,
+      "cozy": 9
+    },
+    "fancy": 37
+  },
+  {
+    "id": 15793,
+    "name": "Strawberry Mango Margarita #2",
+    "spirit": "Tequila",
+    "difficulty": "Medium",
+    "description": "A fruity margarita with fresh mango and strawberries.",
+    "ingredients": [
+      "mango",
+      "strawberries",
+      "gold tequila",
+      "triple sec",
+      "lime juice"
+    ],
+    "flavor": "Fruity, Sweet, Tropical",
+    "instructions": "In a food processor, puree the mango and strawberries. You should have about 1 1/2 cups of puree. Transfer to a container, cover, and refrigerate until cold -- about 1 hour. In a blender container, combine half the puree, half the tequila, half the triple sec and half the lime juice. Fill the jar to the top with ice cubes, cover, and blend on high until thick and slushy. Transfer to a pitcher. Repeat with remaining ingredients. Stir to blend, pour into margarita glasses, and serve immediately.",
+    "glass": "Margarita Glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 7,
+      "relaxed": 10,
+      "romantic": 6,
+      "celebratory": 6,
+      "cozy": 8
+    },
+    "fancy": 37
+  },
+  {
+    "id": 16344,
+    "name": "Zocolo",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "A tropical cocktail with rum, tequila, and fruit juices.",
+    "ingredients": [
+      "dark rum",
+      "tequila",
+      "pineapple juice",
+      "grapefruit juice",
+      "club soda"
+    ],
+    "flavor": "Tropical, Citrus, Fruity",
+    "instructions": "Pour dark rum, tequila, pineapple juice and grapefruit juice into a cocktail shaker half-filled with ice cubes. Shake well, and strain into a collins glass almost filled with ice cubes. Add club soda and stir well. Garnish with a slice of orange, a pineapple wedge, and a maraschino cherry. Serve.",
+    "glass": "Collins Glass",
+    "garnish": "Orange slice, pineapple wedge, maraschino cherry",
+    "moods": {
+      "energetic": 6,
+      "relaxed": 9,
+      "romantic": 6,
+      "celebratory": 7,
+      "cozy": 9
+    },
+    "fancy": 37
+  },
+  {
+    "id": 9394,
+    "name": "Brown Town Busta",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "A whiskey cocktail with Sprite Remix and orange juice.",
+    "ingredients": [
+      "Jack Daniel's(R) Old No.7 Tennessee whiskey",
+      "Sprite Remix",
+      "vodka",
+      "orange juice"
+    ],
+    "flavor": "Sweet, Citrus, Strong",
+    "instructions": "Pour ingredients into an old-fashioned glass, stir, and serve.",
+    "glass": "Old-Fashioned Glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 8,
+      "relaxed": 10,
+      "romantic": 5,
+      "celebratory": 6,
+      "cozy": 8
+    },
+    "fancy": 37
+  },
+  {
+    "id": 10870,
+    "name": "Double Mudd",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "A layered cocktail with gin, tequila, rum, and blue curacao.",
+    "ingredients": [
+      "gin",
+      "gold tequila",
+      "light rum",
+      "Blue Curacao liqueur",
+      "cola",
+      "lemon juice"
+    ],
+    "flavor": "Layered, Citrus, Blue",
+    "instructions": "Build over ice. Add lemon bar mix and top with cola. Garnish with a lemon slice and a cherry.",
+    "glass": "Highball Glass",
+    "garnish": "Lemon slice, cherry",
+    "moods": {
+      "energetic": 7,
+      "relaxed": 9,
+      "romantic": 6,
+      "celebratory": 6,
+      "cozy": 9
+    },
+    "fancy": 37
+  },
+  {
+    "id": 12957,
+    "name": "K-12",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "A high-energy cocktail with gin, tequila, and energy drink.",
+    "ingredients": [
+      "gin",
+      "white tequila",
+      "triple sec",
+      "7-Up(R) soda",
+      "Rockstar(R) energy drink"
+    ],
+    "flavor": "Energy, Citrus, Sweet",
+    "instructions": "Shake ingredients in a cocktail shaker with ice. Strain into glass.",
+    "glass": "Highball Glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 7,
+      "relaxed": 9,
+      "romantic": 6,
+      "celebratory": 6,
+      "cozy": 9
+    },
+    "fancy": 37
+  },
+  {
+    "id": 14043,
+    "name": "Monte Carlo Imperial",
+    "spirit": "Gin",
+    "difficulty": "Easy",
+    "description": "A gin cocktail with creme de menthe and champagne.",
+    "ingredients": [
+      "gin",
+      "white creme de menthe",
+      "lemon juice",
+      "Champagne"
+    ],
+    "flavor": "Minty, Bubbly, Refreshing",
+    "instructions": "Shake gin, creme de menthe and lemon juice well over ice cubes in a shaker. Strain into a champagne flute, fill with champagne, and serve.",
+    "glass": "Champagne Flute",
+    "garnish": "None",
+    "moods": {
+      "energetic": 6,
+      "relaxed": 8,
+      "romantic": 6,
+      "celebratory": 7,
+      "cozy": 10
+    },
+    "fancy": 37
+  },
+  {
+    "id": 14896,
+    "name": "Pink Goody",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "A pink cocktail with gin, rum, and lime juice.",
+    "ingredients": [
+      "gin",
+      "Bacardi(R) gold rum",
+      "lime juice",
+      "maraschino liqueur",
+      "soda water"
+    ],
+    "flavor": "Pink, Citrus, Fruity",
+    "instructions": "Build in a highball glass filled with ice cubes. Garnish with a pineapple slice, and serve.",
+    "glass": "Highball Glass",
+    "garnish": "Pineapple slice",
+    "moods": {
+      "energetic": 7,
+      "relaxed": 6,
+      "romantic": 9,
+      "celebratory": 6,
+      "cozy": 9
+    },
+    "fancy": 37
+  },
+  {
+    "id": 15809,
+    "name": "Sugar 'n Sinz",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "A sweet cocktail with vodka, tequila, and sweet and sour mix.",
+    "ingredients": [
+      "vodka",
+      "triple sec",
+      "tequila",
+      "sweet and sour mix",
+      "7-Up(R) soda",
+      "sugar"
+    ],
+    "flavor": "Sweet, Smooth, Citrus",
+    "instructions": "Pour ingredients into a cocktail shaker with ice, shake well, and strain into a highball glass filled with ice. Add a straw, and serve.",
+    "glass": "Highball Glass",
+    "garnish": "Straw",
+    "moods": {
+      "energetic": 7,
+      "relaxed": 9,
+      "romantic": 6,
+      "celebratory": 6,
+      "cozy": 9
+    },
+    "fancy": 37
+  },
+  {
+    "id": 15996,
+    "name": "The Pickle Barrel",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "A strong mixed drink with vodka, tequila, rum, and gin.",
+    "ingredients": [
+      "vodka",
+      "tequila",
+      "rum",
+      "gin",
+      "triple sec",
+      "iced tea",
+      "sugar"
+    ],
+    "flavor": "Strong, Mixed, Sweet",
+    "instructions": "Pour ingredients together over ice in a tall glass. Pour into a cocktail shaker and give one brisk shake. Pour back into glass. Garnish with a lemon. Add sugar to taste, and serve.",
+    "glass": "Collins Glass",
+    "garnish": "Lemon",
+    "moods": {
+      "energetic": 7,
+      "relaxed": 9,
+      "romantic": 6,
+      "celebratory": 6,
+      "cozy": 9
+    },
+    "fancy": 37
+  },
+  {
+    "id": 16058,
+    "name": "Tokyo Tea",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "A Japanese-inspired cocktail with multiple spirits and Midori.",
+    "ingredients": [
+      "vodka",
+      "rum",
+      "gin",
+      "tequila",
+      "triple sec",
+      "Midori(R) melon liqueur"
+    ],
+    "flavor": "Melon, Strong, Green",
+    "instructions": "Combine all ingredients in a cocktail shaker. Shake, strain into a small highball glass filled with ice, and serve.",
+    "glass": "Highball Glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 7,
+      "relaxed": 9,
+      "romantic": 6,
+      "celebratory": 6,
+      "cozy": 9
+    },
+    "fancy": 37
+  },
+  {
+    "id": 9800,
+    "name": "Cemetary Cider",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "A strong fall cocktail with spiced rum, bourbon, and apple cider.",
+    "ingredients": [
+      "Captain Morgan(R) Silver spiced rum",
+      "Jim Beam(R) bourbon whiskey",
+      "Bacardi(R) orange rum",
+      "apple cider"
+    ],
+    "flavor": "Spiced, Apple, Strong",
+    "instructions": "Combine the rums and whiskey over ice in a cocktail shaker. Shake well. Add the apple cider and stir lightly. Pour into a pint glass, and serve.",
+    "glass": "Beer Mug",
+    "garnish": "None",
+    "moods": {
+      "energetic": 9,
+      "relaxed": 10,
+      "romantic": 3,
+      "celebratory": 5,
+      "cozy": 6
+    },
+    "fancy": 33
+  },
+  {
+    "id": 11235,
+    "name": "Field Artillery Special",
+    "spirit": "Mixed",
+    "difficulty": "Hard",
+    "description": "A powerful military-inspired cocktail with Everclear, bourbon, and Jagermeister.",
+    "ingredients": [
+      "Everclear(R) alcohol",
+      "Wild Turkey(R) bourbon whiskey",
+      "Jagermeister(R) herbal liqueur",
+      "Powerade(R) energy drink"
+    ],
+    "flavor": "Strong, Herbal, Energy",
+    "instructions": "In a shaker, combine bourbon, Jagermeister, powerade and ice. Shake well, strain and add to glass. Float everclear on top. Drink as a shooter.",
+    "glass": "Old-Fashioned Glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 9,
+      "relaxed": 10,
+      "romantic": 3,
+      "celebratory": 5,
+      "cozy": 6
+    },
+    "fancy": 33
+  },
+  {
+    "id": 1436,
+    "name": "Coral Reef",
+    "spirit": "Mixed",
+    "difficulty": "Medium",
+    "description": "A tropical blue cocktail with citrus vodka, tequila, and blue curacao.",
+    "ingredients": [
+      "Citrus vodka",
+      "Tequila",
+      "Blue Curacao",
+      "Sour mix"
+    ],
+    "flavor": "Tropical, Blue, Citrus",
+    "instructions": "Pour vodka, tequila, and blue Curacao over ice and shake Slowly add sour mix until drink is a bright turquois. Remix and serve.",
+    "glass": "Cocktail glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 6,
+      "relaxed": 4,
+      "romantic": 6,
+      "celebratory": 4,
+      "cozy": 7.5
+    },
+    "fancy": 27.5
+  },
+  {
+    "id": 2565,
+    "name": "Grinch #2",
+    "spirit": "Mixed",
+    "difficulty": "Medium",
+    "description": "A layered green cocktail that changes color from green to yellow to blue.",
+    "ingredients": [
+      "Midori melon liqueur",
+      "Malibu rum",
+      "Gin",
+      "Vodka",
+      "7-Up",
+      "Sweet and sour",
+      "Blue Curacao"
+    ],
+    "flavor": "Layered, Tropical, Sweet",
+    "instructions": "Fill the glass with ice and put the first 4 acohols in, the put the sweet and sour and 7-up a little more 7-up than Sweet and Sour. Then float the Blue on top. If done right it should go from green to yellow to blue.",
+    "glass": "Hurricane glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 10,
+      "relaxed": 5,
+      "romantic": 7.5,
+      "celebratory": 3,
+      "cozy": 7.5
+    },
+    "fancy": 33
+  },
+  {
+    "id": 3285,
+    "name": "Leaving Las Vegas",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "A classic long island variation with multiple spirits and lemonade.",
+    "ingredients": [
+      "Triple sec",
+      "Vodka",
+      "Light rum",
+      "Gin",
+      "Lemonade",
+      "Sugar",
+      "Sprite"
+    ],
+    "flavor": "Strong, Citrus, Sweet",
+    "instructions": "Layer and stir, garnish with lemon",
+    "glass": "Hurricane glass",
+    "garnish": "Lemon",
+    "moods": {
+      "energetic": 10,
+      "relaxed": 5,
+      "romantic": 7.5,
+      "celebratory": 3,
+      "cozy": 7.5
+    },
+    "fancy": 33
+  },
+  {
+    "id": 3421,
+    "name": "Long Island Iced Tea #5",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "A classic long island iced tea with vodka, gin, rum, and triple sec.",
+    "ingredients": [
+      "Vodka",
+      "Gin",
+      "Light rum",
+      "Triple sec",
+      "Sweet and sour",
+      "Pepsi Cola"
+    ],
+    "flavor": "Strong, Sweet, Classic",
+    "instructions": "Add ice to glass. Add Alcohol. Add Sweet and Sour mix. Fill to the top with Cola (preferably Pepsi). Squeeze and add lemon",
+    "glass": "Mason jar",
+    "garnish": "Lemon",
+    "moods": {
+      "energetic": 10,
+      "relaxed": 5,
+      "romantic": 7.5,
+      "celebratory": 3,
+      "cozy": 7.5
+    },
+    "fancy": 33
+  },
+  {
+    "id": 4581,
+    "name": "Red Death #3",
+    "spirit": "Mixed",
+    "difficulty": "Medium",
+    "description": "A complex red cocktail with multiple spirits and fruit juices.",
+    "ingredients": [
+      "Southern Comfort",
+      "Vodka",
+      "Sloe gin",
+      "Triple sec",
+      "Blackberry brandy",
+      "Orange juice",
+      "Pineapple juice"
+    ],
+    "flavor": "Fruity, Red, Complex",
+    "instructions": "Mix up and serve in a highball glass with ice.",
+    "glass": "Highball glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 10,
+      "relaxed": 5,
+      "romantic": 7.5,
+      "celebratory": 3,
+      "cozy": 7.5
+    },
+    "fancy": 33
+  },
+  {
+    "id": 4583,
+    "name": "Red Devil",
+    "spirit": "Mixed",
+    "difficulty": "Medium",
+    "description": "A devilishly red cocktail with vodka, peach schnapps, and sloe gin.",
+    "ingredients": [
+      "Vodka",
+      "Peach schnapps",
+      "Southern Comfort",
+      "Sloe gin",
+      "Triple sec",
+      "Orange juice",
+      "Grenadine"
+    ],
+    "flavor": "Red, Fruity, Sweet",
+    "instructions": "First add ice, then mix in the alcohols, then the juice and grenadine. Shake when all ingredients are mixed. Serve in a 10-12 oz. glass.",
+    "glass": "Highball glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 10,
+      "relaxed": 5,
+      "romantic": 7.5,
+      "celebratory": 3,
+      "cozy": 7.5
+    },
+    "fancy": 33
+  },
+  {
+    "id": 5011,
+    "name": "Sex on the Brain",
+    "spirit": "Mixed",
+    "difficulty": "Medium",
+    "description": "A layered cocktail that creates a traffic light effect with green, yellow, and red layers.",
+    "ingredients": [
+      "Peach schnapps",
+      "Vodka",
+      "Midori melon liqueur",
+      "Pineapple juice",
+      "Orange juice",
+      "Sloe gin"
+    ],
+    "flavor": "Layered, Fruity, Colorful",
+    "instructions": "Fill glass with ice, insert a straw and then add the first three ingredients (Vodka, Midori, Schnapps) then layer the juices using a barspoon to get a separation of alcohol and mixers. Leave a little room at top of glass to float the Sloe gin on top. Garnish with a cherry and orange wedge. The drink should look like a Stop Light. Green at the bottom, yellow in the middle and red on top.",
+    "glass": "Hurricane glass",
+    "garnish": "Cherry, orange wedge",
+    "moods": {
+      "energetic": 10,
+      "relaxed": 5,
+      "romantic": 7.5,
+      "celebratory": 3,
+      "cozy": 7.5
+    },
+    "fancy": 33
+  },
+  {
+    "id": 5728,
+    "name": "Tie Me To The Bedpost, Baby",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "A fruity mixed cocktail with multiple liqueurs and juices.",
+    "ingredients": [
+      "Melon liqueur",
+      "Sloe gin",
+      "Absolut Vodka",
+      "Southern Comfort",
+      "Chambord raspberry liqueur",
+      "Pineapple juice",
+      "Cranberry juice"
+    ],
+    "flavor": "Fruity, Sweet, Mixed",
+    "instructions": "Mix with ice in a hurricane glass.",
+    "glass": "Hurricane glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 10,
+      "relaxed": 5,
+      "romantic": 7.5,
+      "celebratory": 3,
+      "cozy": 7.5
+    },
+    "fancy": 33
+  },
+  {
+    "id": 8876,
+    "name": "Bitter Cleet",
+    "spirit": "Mixed",
+    "difficulty": "Hard",
+    "description": "An original creation by Buddha Bar Dubai Bartenders with a bizarre taste sensation of bitter, pink and slightly mint.",
+    "ingredients": [
+      "Roberto Cavalli(R) Vodka",
+      "Pimm's(R) gin",
+      "Southern Comfort(R) peach liqueur",
+      "Marie Brizard(R) orange curacao",
+      "grapefruit juice",
+      "cranberry juice",
+      "lemon juice",
+      "mint"
+    ],
+    "flavor": "Bitter, Pink, Minty",
+    "instructions": "Fill a boston glass 3/4 of ice, pour all the ingredients, shake vigorously for no more than eight seconds along with the mint leaves at the last add the mint. Use Hawthorn strainer to strain through tea strainer into frozen martini glass, this will exclude the shards of ice and the mint leaves getting into the drink. Garnish with a small mint leaves out side of the glass.",
+    "glass": "Cocktail Glass",
+    "garnish": "Mint leaves",
+    "moods": {
+      "energetic": 10,
+      "relaxed": 5,
+      "romantic": 7.5,
+      "celebratory": 3,
+      "cozy": 7.5
+    },
+    "fancy": 33
+  },
+  {
+    "id": 8203,
+    "name": "Amsterdamned",
+    "spirit": "Mixed",
+    "difficulty": "Medium",
+    "description": "A coffee cocktail with Tia Maria, Bailey's, and champagne.",
+    "ingredients": [
+      "Tia Maria(R) coffee liqueur",
+      "Bailey's(R) Irish cream",
+      "Champagne",
+      "chocolate liqueur",
+      "orange juice"
+    ],
+    "flavor": "Coffee, Creamy, Bubbly",
+    "instructions": "Add all the ingredients except the champagne to a cocktail shaker with some crushed ice. Shake well. Pour the champagne into a cocktail glass. Add the mixture, garnish it with some mint leaves, and serve.",
+    "glass": "Cocktail Glass",
+    "garnish": "Mint leaves",
+    "moods": {
+      "energetic": 9,
+      "relaxed": 2,
+      "romantic": 6,
+      "celebratory": 6,
+      "cozy": 10
+    },
+    "fancy": 33
+  },
+  {
+    "id": 10569,
+    "name": "D'Artagnan",
+    "spirit": "Mixed",
+    "difficulty": "Medium",
+    "description": "A refined cocktail with armagnac, Grand Marnier, and champagne.",
+    "ingredients": [
+      "armagnac",
+      "Grand Marnier(R) orange liqueur",
+      "orange juice",
+      "simple syrup",
+      "Champagne"
+    ],
+    "flavor": "Refined, Orange, Bubbly",
+    "instructions": "Chill the teaspoon amounts of liquor in a mixing glass and strain into a champagne flute. Top with champagne, add strips of orange peel, and serve.",
+    "glass": "Champagne Flute",
+    "garnish": "Orange peel",
+    "moods": {
+      "energetic": 9,
+      "relaxed": 2,
+      "romantic": 6,
+      "celebratory": 6,
+      "cozy": 10
+    },
+    "fancy": 33
+  },
+  {
+    "id": 11396,
+    "name": "French 68",
+    "spirit": "Brandy",
+    "difficulty": "Medium",
+    "description": "A French cocktail with brandy, Calvados, and champagne.",
+    "ingredients": [
+      "brandy",
+      "Calvados(R) brandy",
+      "grenadine syrup",
+      "sugar syrup",
+      "lemon juice",
+      "Champagne"
+    ],
+    "flavor": "French, Sweet, Bubbly",
+    "instructions": "Shake all ingredients (except champagne) well over ice cubes in a shaker. Strain into a champagne flute, slowly fill with champagne, and serve.",
+    "glass": "Champagne Flute",
+    "garnish": "None",
+    "moods": {
+      "energetic": 9,
+      "relaxed": 2,
+      "romantic": 6,
+      "celebratory": 6,
+      "cozy": 10
+    },
+    "fancy": 33
+  },
+  {
+    "id": 14848,
+    "name": "Pick-Me-Up",
+    "spirit": "Brandy",
+    "difficulty": "Medium",
+    "description": "A pick-me-up cocktail with brandy, grenadine, and champagne.",
+    "ingredients": [
+      "brandy",
+      "grenadine syrup",
+      "sugar syrup",
+      "Angostura(R) bitters",
+      "lemon juice",
+      "Champagne"
+    ],
+    "flavor": "Refreshing, Sweet, Bubbly",
+    "instructions": "Shake all ingredients (except champagne) well over ice cubes in a shaker. Strain into a champagne flute, fill with champagne, and serve.",
+    "glass": "Champagne Flute",
+    "garnish": "None",
+    "moods": {
+      "energetic": 9,
+      "relaxed": 2,
+      "romantic": 6,
+      "celebratory": 6,
+      "cozy": 10
+    },
+    "fancy": 33
+  },
+  {
+    "id": 11274,
+    "name": "Five Hundred Proof",
+    "spirit": "Mixed",
+    "difficulty": "Hard",
+    "description": "An extremely strong cocktail with multiple overproof spirits.",
+    "ingredients": [
+      "white rum",
+      "bourbon whiskey",
+      "Green Chartreuse(R)",
+      "vodka",
+      "Southern Comfort(R) peach liqueur",
+      "lemon juice",
+      "orange juice",
+      "sugar syrup",
+      "grenadine syrup"
+    ],
+    "flavor": "Extremely Strong, Complex, Herbal",
+    "instructions": "Shake and strain into a pilsner filled with broken ice. Garnish with a cherry, and serve.",
+    "glass": "Beer Pilsner",
+    "garnish": "Cherry",
+    "moods": {
+      "energetic": 10,
+      "relaxed": 6,
+      "romantic": 5,
+      "celebratory": 3,
+      "cozy": 9
+    },
+    "fancy": 33
+  },
+  {
+    "id": 16132,
+    "name": "Two Seventeen",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "A military-inspired cocktail created in Fort Richardson, Alaska by an amateur bartender/professional soldier.",
+    "ingredients": [
+      "Jameson(R) Irish whiskey",
+      "Sailor Jerry(R) spiced navy rum",
+      "Grey Goose(R) vodka",
+      "triple sec",
+      "sweet and sour mix",
+      "grenadine syrup"
+    ],
+    "flavor": "Strong, Military, Sweet",
+    "instructions": "Fill a pint glass about half full of ice. Pour ingredients into glass in no particular order. Shake very well. Garnish with lemon or orange slice.",
+    "glass": "Pint glass",
+    "garnish": "Lemon or orange slice",
+    "moods": {
+      "energetic": 10,
+      "relaxed": 6,
+      "romantic": 5,
+      "celebratory": 3,
+      "cozy": 9
+    },
+    "fancy": 33
+  },
+  {
+    "id": 11974,
+    "name": "Green Goddamn #2",
+    "spirit": "Mixed",
+    "difficulty": "Medium",
+    "description": "A colorful green cocktail with multiple spirits and liqueurs.",
+    "ingredients": [
+      "Jack Daniel's(R) Tennessee whiskey",
+      "Southern Comfort(R) peach liqueur",
+      "orange juice",
+      "Smirnoff(R) vodka",
+      "Chambord(R) raspberry liqueur",
+      "Blue Curacao liqueur"
+    ],
+    "flavor": "Green, Fruity, Complex",
+    "instructions": "Add all ingredients to a cocktail shaker half-filled with ice cubes. Shake well, strain into a highball glass filled with ice cubes, and serve.",
+    "glass": "Highball Glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 10,
+      "relaxed": 7,
+      "romantic": 5,
+      "celebratory": 3,
+      "cozy": 8
+    },
+    "fancy": 33
+  },
+  {
+    "id": 7112,
+    "name": "Honolulu Shooter",
+    "spirit": "Gin",
+    "difficulty": "Easy",
+    "description": "A tropical gin shooter with pineapple and citrus juices.",
+    "ingredients": [
+      "gin",
+      "pineapple juice",
+      "orange juice",
+      "lemon juice",
+      "pineapple syrup",
+      "Angostura(R) bitters"
+    ],
+    "flavor": "Tropical, Pineapple, Citrus",
+    "instructions": "Shake, strain into a shot glass, and serve.",
+    "glass": "Shot Glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 9,
+      "relaxed": 6,
+      "romantic": 6,
+      "celebratory": 2,
+      "cozy": 8
+    },
+    "fancy": 31
+  },
+  {
+    "id": 2934,
+    "name": "Jamaica Glow",
+    "spirit": "Gin",
+    "difficulty": "Easy",
+    "description": "A gin cocktail with Jamaican rum, red wine, and orange juice.",
+    "ingredients": [
+      "Gin",
+      "Rum",
+      "Red wine",
+      "Orange juice"
+    ],
+    "flavor": "Wine, Citrus, Smooth",
+    "instructions": "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
+    "glass": "Cocktail glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 5,
+      "relaxed": 5,
+      "romantic": 6.5,
+      "celebratory": 5,
+      "cozy": 8
+    },
+    "fancy": 29.5
+  },
+  {
+    "id": 5470,
+    "name": "Suffering Bastard",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "A classic cocktail with gin, rum, lime juice, and ginger ale.",
+    "ingredients": [
+      "Gin",
+      "Rum",
+      "Lime juice",
+      "Bitters",
+      "Ginger ale",
+      "Ice"
+    ],
+    "flavor": "Ginger, Citrus, Refreshing",
+    "instructions": "Pour ingredients into a glass. Stir. Drink.",
+    "glass": "Any Glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 5,
+      "relaxed": 5,
+      "romantic": 6.5,
+      "celebratory": 5,
+      "cozy": 8
+    },
+    "fancy": 29.5
+  },
+  {
+    "id": 5486,
+    "name": "Summer Sunset",
+    "spirit": "Rum",
+    "difficulty": "Easy",
+    "description": "A refreshing summer cocktail with white rum, fruit punch, and ginger ale.",
+    "ingredients": [
+      "White rum",
+      "Fruit punch",
+      "Ginger ale",
+      "Ice"
+    ],
+    "flavor": "Fruity, Refreshing, Sweet",
+    "instructions": "Put ice cubes in the Collins glass. Then poor the white rum. Fill with the fruit punch and the ginger ale.",
+    "glass": "Collins glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 5,
+      "relaxed": 5,
+      "romantic": 6.5,
+      "celebratory": 5,
+      "cozy": 8
+    },
+    "fancy": 29.5
+  },
+  {
+    "id": 5025,
+    "name": "Sexual Harrasement",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "A mixed shot with Crown Royal, amaretto, and sloe gin.",
+    "ingredients": [
+      "Crown Royal",
+      "Amaretto",
+      "Sloe gin",
+      "Orange juice",
+      "Pineapple juice"
+    ],
+    "flavor": "Sweet, Fruity, Strong",
+    "instructions": "Pour all ingredients in a mixing tin with ice. Shake and strain.",
+    "glass": "Highball glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 8,
+      "relaxed": 5,
+      "romantic": 6,
+      "celebratory": 2,
+      "cozy": 8
+    },
+    "fancy": 29
+  },
+  {
+    "id": 6227,
+    "name": "A Little Bit Of Maeve",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "A layered shot with amaretto, sloe gin, and Southern Comfort.",
+    "ingredients": [
+      "amaretto almond liqueur",
+      "sloe gin",
+      "Southern Comfort(R) peach liqueur",
+      "orange juice"
+    ],
+    "flavor": "Peach, Sweet, Layered",
+    "instructions": "Shake everything except orange juice in a cocktail shaker with ice. Strain into a shot glass. Fill a glass with orange juice and drop the shot glass in. Serve.",
+    "glass": "Shot Glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 8,
+      "relaxed": 5,
+      "romantic": 6,
+      "celebratory": 2,
+      "cozy": 8
+    },
+    "fancy": 29
+  },
+  {
+    "id": 6293,
+    "name": "Anthrax",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "A strong shot with spiced rum, white rum, and Canadian whisky.",
+    "ingredients": [
+      "Captain Morgan(R) Original spiced rum",
+      "Bacardi(R) white rum",
+      "Crown Royal(R) Canadian whisky"
+    ],
+    "flavor": "Strong, Mixed, Spiced",
+    "instructions": "Pour into a shot glass and serve.",
+    "glass": "Shot Glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 8,
+      "relaxed": 5,
+      "romantic": 6,
+      "celebratory": 2,
+      "cozy": 8
+    },
+    "fancy": 29
+  },
+  {
+    "id": 10766,
+    "name": "Dirty Bloody Red Headed Slut",
+    "spirit": "Mixed",
+    "difficulty": "Medium",
+    "description": "A complex cocktail with Jagermeister, Kahlua, and mixed juices.",
+    "ingredients": [
+      "Jagermeister(R) herbal liqueur",
+      "Kahlua(R) coffee liqueur",
+      "peach schnapps",
+      "cranberry juice",
+      "tomato juice"
+    ],
+    "flavor": "Herbal, Coffee, Fruity",
+    "instructions": "Shake all ingredients with ice, and serve without ice in a small rocks glass.",
+    "glass": "Old-Fashioned Glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 10,
+      "relaxed": 2,
+      "romantic": 6,
+      "celebratory": 5,
+      "cozy": 6
+    },
+    "fancy": 29
+  },
+  {
+    "id": 11077,
+    "name": "Electric Cool-Aid",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "An electric cocktail with multiple liqueurs and cranberry juice.",
+    "ingredients": [
+      "amaretto almond liqueur",
+      "raspberry schnapps",
+      "Southern Comfort(R) peach liqueur",
+      "triple sec",
+      "cranberry juice",
+      "sweet and sour mix"
+    ],
+    "flavor": "Fruity, Electric, Sweet",
+    "instructions": "Fill glass with ice. Pour in shots and fill with equal parts cranberry and sour mix.",
+    "glass": "Collins Glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 10,
+      "relaxed": 2,
+      "romantic": 6,
+      "celebratory": 5,
+      "cozy": 6
+    },
+    "fancy": 29
+  },
+  {
+    "id": 13646,
+    "name": "Mandarin",
+    "spirit": "Mixed",
+    "difficulty": "Medium",
+    "description": "A complex cocktail with multiple herbal liqueurs and cream.",
+    "ingredients": [
+      "benedictine herbal liqueur",
+      "Galliano(R) herbal liqueur",
+      "apricot brandy",
+      "triple sec",
+      "Mandarine Napoleon(R) orange liqueur",
+      "double cream",
+      "orange juice"
+    ],
+    "flavor": "Herbal, Orange, Creamy",
+    "instructions": "Blend briefly with three-quarters of a glassful of crushed ice. Serve in a double-cocktail glass garnished with a slice of orange speared with a cherry.",
+    "glass": "Cocktail Glass",
+    "garnish": "Orange slice, cherry",
+    "moods": {
+      "energetic": 10,
+      "relaxed": 2,
+      "romantic": 6,
+      "celebratory": 5,
+      "cozy": 6
+    },
+    "fancy": 29
+  },
+  {
+    "id": 14383,
+    "name": "Of Darkness",
+    "spirit": "Mixed",
+    "difficulty": "Medium",
+    "description": "A dark cocktail with multiple herbal liqueurs and whisky.",
+    "ingredients": [
+      "creme de myrtille",
+      "Crown Royal(R) Canadian whisky",
+      "Damiana(R) herbal liqueur",
+      "Jagermeister(R) herbal liqueur",
+      "lemon juice"
+    ],
+    "flavor": "Dark, Herbal, Strong",
+    "instructions": "Stir ingredients in a cocktail shaker with ice. Strain into glass.",
+    "glass": "Cocktail Glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 10,
+      "relaxed": 2,
+      "romantic": 6,
+      "celebratory": 5,
+      "cozy": 6
+    },
+    "fancy": 29
+  },
+  {
+    "id": 7949,
+    "name": "6 Wise Men",
+    "spirit": "Whiskey",
+    "difficulty": "Easy",
+    "description": "A powerful whiskey cocktail combining six different whiskeys.",
+    "ingredients": [
+      "Jack Daniel's(R) Tennessee whiskey",
+      "Evan Williams(R) Bourbon Whiskey",
+      "Jim Beam(R) bourbon whiskey",
+      "Maker's Mark(R) bourbon whiskey",
+      "Johnnie Walker(R) Scotch whisky",
+      "Jameson(R) Irish whiskey"
+    ],
+    "flavor": "Strong, Complex, Whiskey",
+    "instructions": "Pour all 6 whiskeys into an old-fashioned glass. Add ice cubes, and serve.",
+    "glass": "Old-Fashioned Glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 10,
+      "relaxed": 7,
+      "romantic": 4,
+      "celebratory": 3,
+      "cozy": 5
+    },
+    "fancy": 29
+  },
+  {
+    "id": 9039,
+    "name": "Blue Ball",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "A blue cocktail with raspberry vodka, coconut rum, and blue curacao.",
+    "ingredients": [
+      "raspberry vodka",
+      "coconut rum",
+      "Blue Curacao liqueur"
+    ],
+    "flavor": "Blue, Fruity, Coconut",
+    "instructions": "Pour one part of all three ingredients into a shaker, with ice. Mix well and serve as double shots.",
+    "glass": "Old-Fashioned Glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 5,
+      "relaxed": 4,
+      "romantic": 7,
+      "celebratory": 8,
+      "cozy": 7.5
+    },
+    "fancy": 31.5
+  },
+  {
+    "id": 9559,
+    "name": "California Martini",
+    "spirit": "Vodka",
+    "difficulty": "Medium",
+    "description": "A California-style martini with vodka, red wine, and dark rum.",
+    "ingredients": [
+      "vodka",
+      "red wine",
+      "dark rum",
+      "orange bitters"
+    ],
+    "flavor": "Complex, Wine, Citrus",
+    "instructions": "Pour the vodka, red wine, dark rum and orange bitters into a cocktail shaker half-filled with cracked ice. Shake well, and strain into a chilled cocktail glass. Garnish with an orange twist, and serve.",
+    "glass": "Cocktail Glass",
+    "garnish": "Orange twist",
+    "moods": {
+      "energetic": 5,
+      "relaxed": 4,
+      "romantic": 7,
+      "celebratory": 8,
+      "cozy": 7.5
+    },
+    "fancy": 31.5
+  },
+  {
+    "id": 9627,
+    "name": "Candy Fireball",
+    "spirit": "Vodka",
+    "difficulty": "Easy",
+    "description": "A sweet and spicy cocktail with vodka, Aftershock, and ginger ale.",
+    "ingredients": [
+      "vodka",
+      "Aftershock(R) Hot & Cool cinnamon schnapps",
+      "ginger ale"
+    ],
+    "flavor": "Spicy, Sweet, Cinnamon",
+    "instructions": "Build over ice in an old-fashioned glass.",
+    "glass": "Old-Fashioned Glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 5,
+      "relaxed": 4,
+      "romantic": 7,
+      "celebratory": 8,
+      "cozy": 7.5
+    },
+    "fancy": 31.5
+  },
+  {
+    "id": 12314,
+    "name": "Hill Topper",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "A mixed cocktail with vodka, dark rum, and Southern Comfort.",
+    "ingredients": [
+      "vodka",
+      "dark rum",
+      "Southern Comfort(R) peach liqueur",
+      "cola"
+    ],
+    "flavor": "Peach, Cola, Strong",
+    "instructions": "Build over ice. Stir and garnish with a lime slice.",
+    "glass": "Highball Glass",
+    "garnish": "Lime slice",
+    "moods": {
+      "energetic": 5,
+      "relaxed": 4,
+      "romantic": 7,
+      "celebratory": 8,
+      "cozy": 7.5
+    },
+    "fancy": 31.5
+  },
+  {
+    "id": 14444,
+    "name": "One Fruity Tutti",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "A fruity blended cocktail with vodka, coconut rum, bananas, and strawberries.",
+    "ingredients": [
+      "vodka",
+      "coconut rum",
+      "bananas",
+      "strawberries"
+    ],
+    "flavor": "Fruity, Tropical, Sweet",
+    "instructions": "Combine all ingredients in a blender with enough ice to achieve a smooth consistancy. Serve in coupe glass.",
+    "glass": "Coupe glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 5,
+      "relaxed": 4,
+      "romantic": 7,
+      "celebratory": 8,
+      "cozy": 7.5
+    },
+    "fancy": 31.5
+  },
+  {
+    "id": 15683,
+    "name": "Snowballs",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "A frozen blended cocktail with vodka, rum, and peach schnapps.",
+    "ingredients": [
+      "vodka",
+      "Bacardi(R) light rum",
+      "peach schnapps",
+      "ice"
+    ],
+    "flavor": "Peach, Frozen, Sweet",
+    "instructions": "Pour all ingredients into a blender. Blend on high until the ice is crushed completely. Pour into a collins glass, and serve into two highball glasses or one very tall glass.",
+    "glass": "Highball Glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 5,
+      "relaxed": 4,
+      "romantic": 7,
+      "celebratory": 8,
+      "cozy": 7.5
+    },
+    "fancy": 31.5
+  },
+  {
+    "id": 1963,
+    "name": "Fat Hooker",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "A tropical cocktail with vodka, peach schnapps, and Malibu rum.",
+    "ingredients": [
+      "Vodka",
+      "Peach schnapps",
+      "Malibu rum",
+      "Orange juice"
+    ],
+    "flavor": "Tropical, Peach, Sweet",
+    "instructions": "Pour first three ingredients in a highball glass filled with ice. Fill with orange or pinapple juice, stir well, and serve.",
+    "glass": "Highball glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 7,
+      "relaxed": 3,
+      "romantic": 7.5,
+      "celebratory": 6,
+      "cozy": 8
+    },
+    "fancy": 31.5
+  },
+  {
+    "id": 2808,
+    "name": "Illusion",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "A tropical shot with Malibu rum, Midori, vodka, and pineapple juice.",
+    "ingredients": [
+      "Malibu rum",
+      "Midori melon liqueur",
+      "Vodka",
+      "Cointreau",
+      "Pineapple juice"
+    ],
+    "flavor": "Tropical, Melon, Sweet",
+    "instructions": "pour all spirits in the shaker ... & top with a splash of pineapple juice",
+    "glass": "Shot glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 7,
+      "relaxed": 3,
+      "romantic": 7.5,
+      "celebratory": 6,
+      "cozy": 8
+    },
+    "fancy": 31.5
+  },
+  {
+    "id": 3475,
+    "name": "M.V.P.",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "A tropical cocktail with vodka, Midori, Malibu rum, and pineapple juice.",
+    "ingredients": [
+      "Vodka",
+      "Midori melon liqueur",
+      "Malibu rum",
+      "Pineapple juice"
+    ],
+    "flavor": "Tropical, Melon, Sweet",
+    "instructions": "Fill glass with ice. Add vodka, midori, and malibu. Fill with pineapple juice. Stir or shake.",
+    "glass": "Hurricane glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 7,
+      "relaxed": 3,
+      "romantic": 7.5,
+      "celebratory": 6,
+      "cozy": 8
+    },
+    "fancy": 31.5
+  },
+  {
+    "id": 5264,
+    "name": "Something Peachie #1",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "A peachy cocktail with vodka, peach schnapps, and fruit juices.",
+    "ingredients": [
+      "Vodka",
+      "Peach schnapps",
+      "Triple sec",
+      "Pineapple juice",
+      "Orange juice"
+    ],
+    "flavor": "Peach, Fruity, Sweet",
+    "instructions": "serve in a tall glass over ice garnish with a cherry and orange",
+    "glass": "Highball glass",
+    "garnish": "Cherry and orange",
+    "moods": {
+      "energetic": 7,
+      "relaxed": 3,
+      "romantic": 7.5,
+      "celebratory": 6,
+      "cozy": 8
+    },
+    "fancy": 31.5
+  },
+  {
+    "id": 5575,
+    "name": "Swimming Pool",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "A blue cocktail with rum, vodka, blue curacao, and cream.",
+    "ingredients": [
+      "White rum",
+      "Vodka",
+      "Blue Curacao",
+      "Amaretto",
+      "Cream",
+      "Pineapple juice"
+    ],
+    "flavor": "Blue, Creamy, Tropical",
+    "instructions": "Mix ingredients with some ice in a shaker. Strain into a glass over some ice.",
+    "glass": "Any Glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 7,
+      "relaxed": 3,
+      "romantic": 7.5,
+      "celebratory": 6,
+      "cozy": 8
+    },
+    "fancy": 31.5
+  },
+  {
+    "id": 5776,
+    "name": "Trailer Wench",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "A strong cocktail with Midori, vodka, 151 proof rum, and grape juice.",
+    "ingredients": [
+      "Midori melon liqueur",
+      "Vodka",
+      "151 proof rum",
+      "Grape juice"
+    ],
+    "flavor": "Grape, Melon, Strong",
+    "instructions": "Pour each ingredient as listed.",
+    "glass": "Any Glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 7,
+      "relaxed": 3,
+      "romantic": 7.5,
+      "celebratory": 6,
+      "cozy": 8
+    },
+    "fancy": 31.5
+  },
+  {
+    "id": 5803,
+    "name": "Tropical Itching",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "A tropical cocktail with rum, vodka, Grand Marnier, and mango juice.",
+    "ingredients": [
+      "White rum",
+      "Dark rum",
+      "Vodka",
+      "Grand Marnier",
+      "Lemon juice",
+      "Mango juice"
+    ],
+    "flavor": "Tropical, Mango, Citrus",
+    "instructions": "Shake with ice and pour into a highball glass half-filled with ice cubes. Garnish with a slice of orange, a cherry and a sprig of mint.",
+    "glass": "Highball glass",
+    "garnish": "Orange slice, cherry, mint",
+    "moods": {
+      "energetic": 7,
+      "relaxed": 3,
+      "romantic": 7.5,
+      "celebratory": 6,
+      "cozy": 8
+    },
+    "fancy": 31.5
+  },
+  {
+    "id": 8382,
+    "name": "Arlingtonian",
+    "spirit": "Whiskey",
+    "difficulty": "Easy",
+    "description": "Invented at the 2007 Foxfield Races in Charlottesville, Virginia. A smooth, classy cocktail that packs a punch.",
+    "ingredients": [
+      "bourbon whiskey",
+      "white wine",
+      "ginger ale",
+      "lime"
+    ],
+    "flavor": "Smooth, Wine, Ginger",
+    "instructions": "Combine the bourbon, white wine, and ginger ale over ice. Garnish with a wedge of lime.",
+    "glass": "Highball Glass",
+    "garnish": "Lime wedge",
+    "moods": {
+      "energetic": 5,
+      "relaxed": 5,
+      "romantic": 3,
+      "celebratory": 8,
+      "cozy": 7
+    },
+    "fancy": 28
+  },
+  {
+    "id": 15896,
+    "name": "Taxidermy",
+    "spirit": "Vodka",
+    "difficulty": "Easy",
+    "description": "A citrus cocktail with vanilla vodka, Mountain Dew, and grenadine.",
+    "ingredients": [
+      "Stolichnaya(R) vanilla vodka",
+      "grenadine syrup",
+      "Mountain Dew(R) citrus soda"
+    ],
+    "flavor": "Citrus, Vanilla, Sweet",
+    "instructions": "Fill glass with ice, pour one ounce of Vanilla Stoli. Top off all but 1/4 of the glass with Mountain Dew. Finish off with a hefty splash of Grenadine syrup and garnish with a lemon wedge and a cherry.",
+    "glass": "Highball Glass",
+    "garnish": "Lemon wedge, cherry",
+    "moods": {
+      "energetic": 7,
+      "relaxed": 3.5,
+      "romantic": 9,
+      "celebratory": 6,
+      "cozy": 7
+    },
+    "fancy": 32.5
+  },
+  {
+    "id": 13504,
+    "name": "Lucifers Tears",
+    "spirit": "Gin",
+    "difficulty": "Hard",
+    "description": "A complex herbal cocktail with gin, Galliano, and multiple liqueurs.",
+    "ingredients": [
+      "gin",
+      "Galliano(R) herbal liqueur",
+      "creme de myrtille",
+      "black sambuca",
+      "Strega(R) herbal liqueur"
+    ],
+    "flavor": "Herbal, Complex, Dark",
+    "instructions": "Stir and strain all but blueberry liqueur into glass, then dribble blueberry liqueur over top.",
+    "glass": "Cocktail Glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 9,
+      "relaxed": 10,
+      "romantic": 6,
+      "celebratory": 5,
+      "cozy": 2
+    },
+    "fancy": 32
+  },
+  {
+    "id": 12694,
+    "name": "Jack Me Off",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "A melon cocktail with Applejack brandy, Midori, and 7-Up.",
+    "ingredients": [
+      "Applejack(R) brandy",
+      "Midori(R) melon liqueur",
+      "7-Up(R) soda"
+    ],
+    "flavor": "Melon, Apple, Sweet",
+    "instructions": "Pour the Applejack brandy and Midori melon liqueur into a cocktail shaker half-filled with ice cubes. Shake well, and strain into a highball glass filled with ice cubes. Fill with 7-up, and serve.",
+    "glass": "Highball Glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 6,
+      "relaxed": 8.5,
+      "romantic": 9,
+      "celebratory": 7,
+      "cozy": 3.5
+    },
+    "fancy": 34
+  },
+  {
+    "id": 5433,
+    "name": "Strawberry Fields Forever",
+    "spirit": "Brandy",
+    "difficulty": "Easy",
+    "description": "A refreshing strawberry cocktail with brandy and strawberry schnapps.",
+    "ingredients": [
+      "Brandy",
+      "Strawberry schnapps",
+      "Carbonated water",
+      "Fresh Strawberries"
+    ],
+    "flavor": "Strawberry, Sweet, Refreshing",
+    "instructions": "Pour brandy and schnapps over ice in a highball glass. Fill with carbonated water and stir. Garnish with a strawberry and serve.",
+    "glass": "Highball glass",
+    "garnish": "Fresh strawberry",
+    "moods": {
+      "energetic": 4,
+      "relaxed": 2.5,
+      "romantic": 1,
+      "celebratory": 3,
+      "cozy": 1
+    },
+    "fancy": 11.5
+  },
+  {
+    "id": 5443,
+    "name": "Strawberry Quick",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "A pink strawberry cocktail with schnapps, Irish cream, and milk.",
+    "ingredients": [
+      "Strawberry schnapps",
+      "Irish cream",
+      "Grenadine",
+      "Milk"
+    ],
+    "flavor": "Strawberry, Creamy, Pink",
+    "instructions": "Mix the contents so that the color of the drink is a pink color. Serve and enjoy",
+    "glass": "Highball glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 4,
+      "relaxed": 2.5,
+      "romantic": 1,
+      "celebratory": 3,
+      "cozy": 1
+    },
+    "fancy": 11.5
+  },
+  {
+    "id": 5453,
+    "name": "Strawberry Starburst",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "A fruity cocktail with strawberry and watermelon schnapps and lemonade.",
+    "ingredients": [
+      "Strawberry schnapps",
+      "Watermelon schnapps",
+      "Lemonade"
+    ],
+    "flavor": "Fruity, Sweet, Citrus",
+    "instructions": "Fill glass with ice. Add schnapps and lemonade. Shake or stir. Garnish with a sugared strawberry if desired.",
+    "glass": "Highball glass",
+    "garnish": "Sugared strawberry",
+    "moods": {
+      "energetic": 4,
+      "relaxed": 2.5,
+      "romantic": 1,
+      "celebratory": 3,
+      "cozy": 1
+    },
+    "fancy": 11.5
+  },
+  {
+    "id": 5477,
+    "name": "Suitor",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "A layered cocktail with Drambuie, orange liqueur, and Bailey's Irish cream.",
+    "ingredients": [
+      "Drambuie",
+      "Orange liqueur",
+      "Bailey's irish cream",
+      "Milk"
+    ],
+    "flavor": "Layered, Creamy, Sweet",
+    "instructions": "Pour in order.",
+    "glass": "Any Glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 4,
+      "relaxed": 2.5,
+      "romantic": 1,
+      "celebratory": 3,
+      "cozy": 1
+    },
+    "fancy": 11.5
+  },
+  {
+    "id": 5496,
+    "name": "Sunding Over the top",
+    "spirit": "Rum",
+    "difficulty": "Easy",
+    "description": "A citrus rum cocktail with Bacardi Limon, 7-Up, and sour mix.",
+    "ingredients": [
+      "Bacardi Limon",
+      "7-Up",
+      "Sour mix",
+      "Schweppes Russchian"
+    ],
+    "flavor": "Citrus, Sour, Refreshing",
+    "instructions": "Pour the bacardi then the 7-up, sour mix and finally the russchian on top. Use a lot of ice.",
+    "glass": "Highball glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 4,
+      "relaxed": 2.5,
+      "romantic": 1,
+      "celebratory": 3,
+      "cozy": 1
+    },
+    "fancy": 11.5
+  },
+  {
+    "id": 5568,
+    "name": "Sweet Treat",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "A sweet cocktail with Tia Maria, Galliano, and Coca-Cola.",
+    "ingredients": [
+      "Tia maria",
+      "Galliano",
+      "Coca-Cola",
+      "Ice cubes"
+    ],
+    "flavor": "Sweet, Coffee, Herbal",
+    "instructions": "Pour Tia Maria and Galliano over ice, and fill to taste with Coca Cola",
+    "glass": "Collins glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 4,
+      "relaxed": 2.5,
+      "romantic": 1,
+      "celebratory": 3,
+      "cozy": 1
+    },
+    "fancy": 11.5
+  },
+  {
+    "id": 5574,
+    "name": "T N T Cocktail",
+    "spirit": "Cognac",
+    "difficulty": "Medium",
+    "description": "An explosive cocktail with cognac, Cointreau, bitters, and absinthe.",
+    "ingredients": [
+      "Cognac",
+      "Cointreau",
+      "Bitters",
+      "Absinthe"
+    ],
+    "flavor": "Strong, Herbal, Complex",
+    "instructions": "Stir with ice and strain into a cocktail glass.",
+    "glass": "Cocktail glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 4,
+      "relaxed": 2.5,
+      "romantic": 1,
+      "celebratory": 3,
+      "cozy": 1
+    },
+    "fancy": 11.5
+  },
+  {
+    "id": 5588,
+    "name": "Talbot's Dream",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "A creamy blended cocktail with white Godiva liqueur and Bailey's Irish cream.",
+    "ingredients": [
+      "white Godiva liqueur",
+      "Bailey's irish cream",
+      "Ice"
+    ],
+    "flavor": "Chocolate, Creamy, Sweet",
+    "instructions": "Add Godiva and the Bailey's in a blender. Add ice to desired thickness. Blend well.",
+    "glass": "Any Glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 4,
+      "relaxed": 2.5,
+      "romantic": 1,
+      "celebratory": 3,
+      "cozy": 1
+    },
+    "fancy": 11.5
+  },
+  {
+    "id": 5597,
+    "name": "Tangerine Dream",
+    "spirit": "Mixed",
+    "difficulty": "Medium",
+    "description": "A citrus cocktail with Mandarine Napoleon, Tia Maria, and cream.",
+    "ingredients": [
+      "Mandarine Napoleon",
+      "Tia maria",
+      "fresh Cream",
+      "Ice"
+    ],
+    "flavor": "Citrus, Coffee, Creamy",
+    "instructions": "Shake and strain into a chilled martini glass. Decorate with coffee beans and hearts cut from the rind of a tangerine.",
+    "glass": "Cocktail glass",
+    "garnish": "Coffee beans, tangerine hearts",
+    "moods": {
+      "energetic": 4,
+      "relaxed": 2.5,
+      "romantic": 1,
+      "celebratory": 3,
+      "cozy": 1
+    },
+    "fancy": 11.5
+  },
+  {
+    "id": 5702,
+    "name": "Thunder",
+    "spirit": "Brandy",
+    "difficulty": "Medium",
+    "description": "A spicy brandy cocktail with powdered sugar and cayenne pepper.",
+    "ingredients": [
+      "Brandy",
+      "Powdered sugar",
+      "Cayenne pepper",
+      "Egg yolk"
+    ],
+    "flavor": "Spicy, Sweet, Strong",
+    "instructions": "Shake all ingredients with ice, strain into a cocktail glass, and serve.",
+    "glass": "Cocktail glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 4,
+      "relaxed": 2.5,
+      "romantic": 1,
+      "celebratory": 3,
+      "cozy": 1
+    },
+    "fancy": 11.5
+  },
+  {
+    "id": 5734,
+    "name": "Toasted Fisherman",
+    "spirit": "Whiskey",
+    "difficulty": "Easy",
+    "description": "A whiskey cocktail with Crown Royal, amaretto, and sweet and sour mix.",
+    "ingredients": [
+      "Crown Royal",
+      "Amaretto",
+      "Sweet and sour",
+      "7-Up"
+    ],
+    "flavor": "Sweet, Whiskey, Fruity",
+    "instructions": "Mix all ingredients over ice stir and serve with a cherry",
+    "glass": "Whiskey sour glass",
+    "garnish": "Cherry",
+    "moods": {
+      "energetic": 4,
+      "relaxed": 2.5,
+      "romantic": 1,
+      "celebratory": 3,
+      "cozy": 1
+    },
+    "fancy": 11.5
+  },
+  {
+    "id": 8413,
+    "name": "Astronaut",
+    "spirit": "Mixed",
+    "difficulty": "Medium",
+    "description": "A space-themed cocktail with vodka, rum, and pineapple juice.",
+    "ingredients": [
+      "vodka",
+      "light rum",
+      "dark rum",
+      "Sprite(R) soda",
+      "pineapple juice"
+    ],
+    "flavor": "Tropical, Citrus, Mixed",
+    "instructions": "Pour the vodka, light rum and dark rum into a cocktail shaker half-filled with ice cubes. Shake well, and strain into a highball glass filled with ice cubes. Add Sprite and a splash of pineapple juice. Serve with a twist of lime (or lemon), and serve.",
+    "glass": "Highball Glass",
+    "garnish": "Lime or lemon twist",
+    "moods": {
+      "energetic": 8,
+      "relaxed": 4,
+      "romantic": 8.5,
+      "celebratory": 6,
+      "cozy": 9
+    },
+    "fancy": 35.5
+  },
+  {
+    "id": 11313,
+    "name": "Flying Angel",
+    "spirit": "Mixed",
+    "difficulty": "Medium",
+    "description": "A tropical cocktail with vodka, coconut rum, and fruit juices.",
+    "ingredients": [
+      "vodka",
+      "coconut rum",
+      "pineapple juice",
+      "orange juice",
+      "Sprite(R) soda",
+      "grenadine syrup"
+    ],
+    "flavor": "Tropical, Fruity, Sweet",
+    "instructions": "In a shaker with ice, pour everything but grenadine and shake. Pour contents into an old fashioned glass and drip grenadine for color. Top with cherry and garnish with pineapple or orange slice.",
+    "glass": "Old-Fashioned Glass",
+    "garnish": "Cherry, pineapple or orange slice",
+    "moods": {
+      "energetic": 8,
+      "relaxed": 4,
+      "romantic": 8.5,
+      "celebratory": 6,
+      "cozy": 9
+    },
+    "fancy": 35.5
+  },
+  {
+    "id": 12303,
+    "name": "High on Irony",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "An ironic cocktail with rum, vodka, and fruit punch.",
+    "ingredients": [
+      "rum",
+      "vodka",
+      "fruit punch",
+      "Jones(R) FuFu berry soda",
+      "lime juice",
+      "ice",
+      "cherry"
+    ],
+    "flavor": "Fruity, Berry, Sweet",
+    "instructions": "Pour the lime juice, soda, and punch into the glass, then add the rum and vodka. Shake and add ice. Top with a cherry. Serve.",
+    "glass": "Highball Glass",
+    "garnish": "Cherry",
+    "moods": {
+      "energetic": 8,
+      "relaxed": 4,
+      "romantic": 8.5,
+      "celebratory": 6,
+      "cozy": 9
+    },
+    "fancy": 35.5
+  },
+  {
+    "id": 10456,
+    "name": "Creamy Crotch",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "A creamy cocktail with vodka, Jack Daniel's, cream, and cocoa powder.",
+    "ingredients": [
+      "vodka",
+      "Jack Daniel's(R) Tennessee whiskey",
+      "cream",
+      "cocoa powder"
+    ],
+    "flavor": "Creamy, Chocolate, Strong",
+    "instructions": "Add all ingredients to an old-fashioned glass. Stir well, and serve.",
+    "glass": "Old-Fashioned Glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 6,
+      "relaxed": 10,
+      "romantic": 5,
+      "celebratory": 7,
+      "cozy": 7.5
+    },
+    "fancy": 35.5
+  },
+  {
+    "id": 3419,
+    "name": "Long Kiss Goodnight Martini",
+    "spirit": "Vodka",
+    "difficulty": "Medium",
+    "description": "A vanilla martini with vodka, creme de cacao, and shaved white chocolate.",
+    "ingredients": [
+      "Vanilla vodka",
+      "Vodka",
+      "Creme de Cacao",
+      "shaved white Chocolate",
+      "Ice"
+    ],
+    "flavor": "Vanilla, Chocolate, Sweet",
+    "instructions": "Freeze a martini glass and it in shaved chocolate to rim. In a shaker put ice, Stoli vanilla, Stoli vodka, and white creme de cacao. Shake lightly and pour into martini glass. Garnish with chocolate kiss.",
+    "glass": "Cocktail glass",
+    "garnish": "Chocolate kiss",
+    "moods": {
+      "energetic": 8,
+      "relaxed": 4,
+      "romantic": 10,
+      "celebratory": 6,
+      "cozy": 7.5
+    },
+    "fancy": 35.5
+  },
+  {
+    "id": 12602,
+    "name": "Infidelity",
+    "spirit": "Mixed",
+    "difficulty": "Medium",
+    "description": "A fruity cocktail with vodka, triple sec, and mixed fruit punches.",
+    "ingredients": [
+      "vodka",
+      "triple sec",
+      "whisky sour mix",
+      "Tampico(R) fruit punch",
+      "Minute Maid(R) grape punch"
+    ],
+    "flavor": "Fruity, Grape, Sweet",
+    "instructions": "Pour all ingredients into a cocktail shaker half-filled with crushed ice, and shake well. Strain into a collins glass half-filled with crushed ice, and serve.",
+    "glass": "Collins Glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 8,
+      "relaxed": 4,
+      "romantic": 10,
+      "celebratory": 6,
+      "cozy": 7.5
+    },
+    "fancy": 35.5
+  },
+  {
+    "id": 13695,
+    "name": "March Madness On Crack",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "An energetic cocktail with vodka, triple sec, and energy drinks.",
+    "ingredients": [
+      "vodka",
+      "triple sec",
+      "peach schnapps",
+      "Amp(R) energy drink",
+      "Gatorade(R) energy drink"
+    ],
+    "flavor": "Energetic, Peach, Strong",
+    "instructions": "Mix everything together and drink it.",
+    "glass": "Highball Glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 8,
+      "relaxed": 4,
+      "romantic": 10,
+      "celebratory": 6,
+      "cozy": 7.5
+    },
+    "fancy": 35.5
+  },
+  {
+    "id": 7895,
+    "name": "Wild Black Betty",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "A strong shot with multiple whiskeys and liqueurs.",
+    "ingredients": [
+      "Wild Turkey(R) bourbon whiskey",
+      "Jack Daniel's(R) Tennessee whiskey",
+      "Southern Comfort(R) peach liqueur",
+      "grenadine syrup",
+      "lime juice"
+    ],
+    "flavor": "Strong, Peach, Sweet",
+    "instructions": "Pour all ingredients into a cocktail shaker over ice. Shake and strain into a shot glass, and serve.",
+    "glass": "Shot Glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 10,
+      "relaxed": 6,
+      "romantic": 6,
+      "celebratory": 2,
+      "cozy": 8
+    },
+    "fancy": 32
+  },
+  {
+    "id": 1482,
+    "name": "Crap Schnapps",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "A mixed schnapps shot with cinnamon, root beer, apple, and peach.",
+    "ingredients": [
+      "Cinnamon schnapps",
+      "Root beer schnapps",
+      "Apple schnapps",
+      "Peach schnapps"
+    ],
+    "flavor": "Mixed, Sweet, Strong",
+    "instructions": "Pour ingredients over ice and strain",
+    "glass": "Shot glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 7,
+      "relaxed": 2.5,
+      "romantic": 4,
+      "celebratory": 6,
+      "cozy": 9
+    },
+    "fancy": 28.5
+  },
+  {
+    "id": 7208,
+    "name": "Jager Shaker #3",
+    "spirit": "Mixed",
+    "difficulty": "Easy",
+    "description": "A Jagermeister shot with root beer schnapps and cream.",
+    "ingredients": [
+      "Jagermeister(R) herbal liqueur",
+      "root beer schnapps",
+      "cola",
+      "cream"
+    ],
+    "flavor": "Herbal, Root Beer, Creamy",
+    "instructions": "Shake ingredients in a cocktail shaker with ice. Strain into glass.",
+    "glass": "Shot Glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 7,
+      "relaxed": 2.5,
+      "romantic": 4,
+      "celebratory": 6,
+      "cozy": 9
+    },
+    "fancy": 28.5
+  },
+  {
+    "id": 7088,
+    "name": "Hell No",
+    "spirit": "Mixed",
+    "difficulty": "Medium",
+    "description": "A strong shot with Everclear, peach schnapps, and mixed ingredients.",
+    "ingredients": [
+      "Everclear(R) alcohol",
+      "peach schnapps",
+      "lime juice",
+      "grenadine syrup",
+      "sweet and sour mix"
+    ],
+    "flavor": "Strong, Peach, Sour",
+    "instructions": "Pour and stir each ingredient into a mixing glass with ice, stirring continuously. Strain into shot glasses, and serve.",
+    "glass": "Shot Glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 9,
+      "relaxed": 9,
+      "romantic": 6,
+      "celebratory": 2,
+      "cozy": 6.5
+    },
+    "fancy": 32.5
+  },
+  {
+    "id": 1922,
+    "name": "Executive Sunrise",
+    "spirit": "Tequila",
+    "difficulty": "Easy",
+    "description": "A tequila sunrise variation with gold tequila and creme de cassis.",
+    "ingredients": [
+      "Gold tequila",
+      "Orange juice",
+      "Creme de Cassis"
+    ],
+    "flavor": "Citrus, Berry, Sweet",
+    "instructions": "Pour the tequila and the orange juice into a collins glass almost filled with ice cubes. Stir well. Drop the cassis into the center of the drink.",
+    "glass": "Collins glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 5,
+      "relaxed": 8,
+      "romantic": 6,
+      "celebratory": 5,
+      "cozy": 6.5
+    },
+    "fancy": 30.5
+  },
+  {
+    "id": 8036,
+    "name": "Acapulco Dream Cream",
+    "spirit": "Tequila",
+    "difficulty": "Medium",
+    "description": "A tropical tequila cocktail with coconut cream and cinnamon.",
+    "ingredients": [
+      "gold tequila",
+      "coconut cream",
+      "orange juice",
+      "cinnamon"
+    ],
+    "flavor": "Tropical, Coconut, Spiced",
+    "instructions": "Combine all ingredients in a cocktail shaker half-filled with ice cubes. Shake well, and pour into a cocktail glass. Dust with cinnamon, and serve.",
+    "glass": "Cocktail Glass",
+    "garnish": "Cinnamon dust",
+    "moods": {
+      "energetic": 5,
+      "relaxed": 8,
+      "romantic": 6,
+      "celebratory": 5,
+      "cozy": 6.5
+    },
+    "fancy": 30.5
+  },
+  {
+    "id": 8802,
+    "name": "Big Apple Margarita",
+    "spirit": "Tequila",
+    "difficulty": "Easy",
+    "description": "An apple margarita with tequila, apple liqueur, and lemon juice.",
+    "ingredients": [
+      "tequila",
+      "Berentzen's(R) apple liqueur",
+      "lemon juice"
+    ],
+    "flavor": "Apple, Citrus, Sweet",
+    "instructions": "Shake with ice and strain into a chilled cocktail glass with a salted rim. Garnish with a slice of green apple, and serve.",
+    "glass": "Cocktail Glass",
+    "garnish": "Green apple slice",
+    "moods": {
+      "energetic": 5,
+      "relaxed": 8,
+      "romantic": 6,
+      "celebratory": 5,
+      "cozy": 6.5
+    },
+    "fancy": 30.5
+  },
+  {
+    "id": 9052,
+    "name": "Blue Canary",
+    "spirit": "Gin",
+    "difficulty": "Easy",
+    "description": "A blue gin cocktail with grapefruit juice and blue curacao.",
+    "ingredients": [
+      "gin",
+      "grapefruit juice",
+      "Blue Curacao liqueur"
+    ],
+    "flavor": "Blue, Citrus, Bitter",
+    "instructions": "Pour the gin, grapefruit juice and blue curacao into a mixing glass half-filled with ice cubes. Stir well. Strain into a chilled cocktail glass filled with crushed ice. Garnish with a sprig of mint, and serve.",
+    "glass": "Cocktail Glass",
+    "garnish": "Mint sprig",
+    "moods": {
+      "energetic": 5,
+      "relaxed": 8,
+      "romantic": 6,
+      "celebratory": 5,
+      "cozy": 6.5
+    },
+    "fancy": 30.5
+  },
+  {
+    "id": 10919,
+    "name": "Dragon Piss #2",
+    "spirit": "Tequila",
+    "difficulty": "Easy",
+    "description": "A tequila cocktail with Midori and Mountain Dew.",
+    "ingredients": [
+      "tequila",
+      "Midori(R) melon liqueur",
+      "Mountain Dew(R) citrus soda"
+    ],
+    "flavor": "Melon, Citrus, Sweet",
+    "instructions": "Pour the tequila and Midori liqueur into a cocktail glass. Top with Mountain Dew, and serve.",
+    "glass": "Cocktail Glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 5,
+      "relaxed": 8,
+      "romantic": 6,
+      "celebratory": 5,
+      "cozy": 6.5
+    },
+    "fancy": 30.5
+  },
+  {
+    "id": 658,
+    "name": "Blavod Martini",
+    "spirit": "Vodka",
+    "difficulty": "Easy",
+    "description": "A black vodka martini with sweet vermouth and maraschino cherry.",
+    "ingredients": [
+      "Blavod vodka",
+      "Sweet Vermouth",
+      "Maraschino cherry"
+    ],
+    "flavor": "Black, Sweet, Classic",
+    "instructions": "Shake well with ice and strain into martini glass. Add cherry.",
+    "glass": "Cocktail glass",
+    "garnish": "Maraschino cherry",
+    "moods": {
+      "energetic": 5,
+      "relaxed": 4,
+      "romantic": 10,
+      "celebratory": 8,
+      "cozy": 5
+    },
+    "fancy": 32
+  },
+  {
+    "id": 1273,
+    "name": "Chocolate Martini #3",
+    "spirit": "Vodka",
+    "difficulty": "Easy",
+    "description": "A chocolate martini with vanilla vodka and Godiva liqueur.",
+    "ingredients": [
+      "Vanilla vodka",
+      "Godiva liqueur",
+      "Cherry"
+    ],
+    "flavor": "Chocolate, Vanilla, Sweet",
+    "instructions": "Mix vanilla vodka and chocolate liqueur in shaker filled with ice. Strain into either wine glass or martini glass. Garnish with a cherry.",
+    "glass": "Red wine glass",
+    "garnish": "Cherry",
+    "moods": {
+      "energetic": 5,
+      "relaxed": 4,
+      "romantic": 10,
+      "celebratory": 8,
+      "cozy": 5
+    },
+    "fancy": 32
+  },
+  {
+    "id": 1275,
+    "name": "The Chocolate Martini",
+    "spirit": "Vodka",
+    "difficulty": "Easy",
+    "description": "A classic chocolate martini with vanilla vodka and chocolate liqueur.",
+    "ingredients": [
+      "Vanilla vodka",
+      "Chocolate liqueur"
+    ],
+    "flavor": "Chocolate, Vanilla, Smooth",
+    "instructions": "Combine ingredients in cocktail shaker with ice. Shake well and strain into chilled martini glass.",
+    "glass": "Cocktail glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 5,
+      "relaxed": 4,
+      "romantic": 10,
+      "celebratory": 8,
+      "cozy": 5
+    },
+    "fancy": 32
+  },
+  {
+    "id": 1629,
+    "name": "Daylon's Bedtime",
+    "spirit": "Vodka",
+    "difficulty": "Easy",
+    "description": "A vanilla vodka cocktail with triple sec and 7-Up.",
+    "ingredients": [
+      "Vanilla vodka",
+      "Triple sec",
+      "7-Up"
+    ],
+    "flavor": "Vanilla, Citrus, Sweet",
+    "instructions": "Pour vanilla vodka into ice filled glass. Add Triple Sec. Add Soda to taste. Mix with straw.",
+    "glass": "Highball glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 5,
+      "relaxed": 4,
+      "romantic": 10,
+      "celebratory": 8,
+      "cozy": 5
+    },
+    "fancy": 32
+  },
+  {
+    "id": 3438,
+    "name": "Longaberger Lemonade",
+    "spirit": "Vodka",
+    "difficulty": "Easy",
+    "description": "A cranberry vodka lemonade with triple sec and 7-Up.",
+    "ingredients": [
+      "Cranberry vodka",
+      "Triple sec",
+      "Sour mix",
+      "7-Up"
+    ],
+    "flavor": "Cranberry, Citrus, Sweet",
+    "instructions": "Combine ingredients in collins glass filled with ice.",
+    "glass": "Collins glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 5,
+      "relaxed": 4,
+      "romantic": 10,
+      "celebratory": 8,
+      "cozy": 5
+    },
+    "fancy": 32
+  },
+  {
+    "id": 3965,
+    "name": "Nummer 10",
+    "spirit": "Vodka",
+    "difficulty": "Easy",
+    "description": "A raspberry vodka cocktail with Kahlua and Russian soda.",
+    "ingredients": [
+      "Raspberry vodka",
+      "Kahlua",
+      "Schweppes Russchian"
+    ],
+    "flavor": "Raspberry, Coffee, Bitter",
+    "instructions": "Fill the glass up to 1/3 with raspberry vodka. Scatter a few drops of Kalhua into the raspberry vodka and mix it. Be careful, it?s important not to get to much Kalhua. Fill up the glass with Schweppes Russchian and the Nummer 10(C) is complete. Enjoy!",
+    "glass": "Whiskey sour glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 5,
+      "relaxed": 4,
+      "romantic": 10,
+      "celebratory": 8,
+      "cozy": 5
+    },
+    "fancy": 32
+  },
+  {
+    "id": 5436,
+    "name": "Strawberry Dream #2",
+    "spirit": "Vodka",
+    "difficulty": "Easy",
+    "description": "A strawberry vodka cocktail with amaretto and 7-Up.",
+    "ingredients": [
+      "Strawberry vodka",
+      "Amaretto",
+      "7-Up",
+      "Ice cubes"
+    ],
+    "flavor": "Strawberry, Almond, Sweet",
+    "instructions": "Shake vodka and amaretto. Fill with 7-Up.",
+    "glass": "Highball glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 5,
+      "relaxed": 4,
+      "romantic": 10,
+      "celebratory": 8,
+      "cozy": 5
+    },
+    "fancy": 32
+  },
+  {
+    "id": 8010,
+    "name": "Absolut Blue Lemonade",
+    "spirit": "Vodka",
+    "difficulty": "Easy",
+    "description": "A blue vodka lemonade with blue curacao.",
+    "ingredients": [
+      "Absolut(R) vodka",
+      "Blue Curacao liqueur",
+      "lemonade"
+    ],
+    "flavor": "Blue, Citrus, Sweet",
+    "instructions": "Shake and serve on ice.",
+    "glass": "Highball Glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 5,
+      "relaxed": 4,
+      "romantic": 10,
+      "celebratory": 8,
+      "cozy": 5
+    },
+    "fancy": 32
+  },
+  {
+    "id": 8131,
+    "name": "Allietini",
+    "spirit": "Vodka",
+    "difficulty": "Medium",
+    "description": "A vodka cocktail with Chambord raspberry liqueur and sugar rim.",
+    "ingredients": [
+      "Ketel One(R) vodka",
+      "Chambord(R) raspberry liqueur",
+      "sugar",
+      "lemon"
+    ],
+    "flavor": "Raspberry, Sweet, Tart",
+    "instructions": "Rim cocktail glass with sugar and set aside. Add Ketel One and Chambord to a mixer with ice, shake vigorously, and pour into glass. Garnish with small lemon peel if desired. Drink by sipping on sugar. Rotate glass with each sip so that sugar is always obtained with drink. You should have finished the sugar when you've finished the drink.",
+    "glass": "Cocktail Glass",
+    "garnish": "Lemon peel",
+    "moods": {
+      "energetic": 5,
+      "relaxed": 4,
+      "romantic": 10,
+      "celebratory": 8,
+      "cozy": 5
+    },
+    "fancy": 32
+  },
+  {
+    "id": 9915,
+    "name": "Cherry Gimlet",
+    "spirit": "Vodka",
+    "difficulty": "Easy",
+    "description": "A cocktail with 1 1/2 oz smirnoff(r) vodka and other ingredients.",
+    "ingredients": [
+      "1 1/2 oz Smirnoff(R) vodka",
+      "1 oz Rose's(R) lime juice",
+      "1/2 oz cherry liqueur"
+    ],
+    "flavor": "Citrus, Fruity",
+    "instructions": "Garnish a cocktail glass with 1 to 2 marashino cherries and a few ice cubes. Shake all ingredients with ice to chill and then strain into the glass and serve.",
+    "glass": "Cocktail Glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 4,
+      "relaxed": 8,
+      "romantic": 8,
+      "celebratory": 8,
+      "cozy": 5
+    },
+    "fancy": 32
+  },
+  {
+    "id": 10109,
+    "name": "Citrus Eden",
+    "spirit": "Vodka",
+    "difficulty": "Medium",
+    "description": "A cocktail with svedka(r) clementine vodka and other ingredients.",
+    "ingredients": [
+      "Svedka(R) clementine vodka",
+      "orange juice",
+      "2 mint",
+      "1 lemon",
+      "1 sliced lime"
+    ],
+    "flavor": "Citrus, Herbal",
+    "instructions": "A very herbal tasting drink, yet sweet, cold & refreshing. A blend of citrus with a distinctive green hue that tantalizes ones senses while everyone else turns green with envy of such a pretty drink. Fill average to large blender with ice. Pour in Svedka Clementine vodka over the ice and fill between the quarter & half mark. Splash in some orange juice until the fluid resembles an orange juice shade of yellow. Pluck leaves from mint & lemon verbena, add to blender. Allow blender to pulse/mix vigorously until mixture resembles an avocado colored slush. Pour into margarita glass and adorn with lime slice and mint sprigs.",
+    "glass": "Margarita Glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 4,
+      "relaxed": 8,
+      "romantic": 8,
+      "celebratory": 8,
+      "cozy": 5
+    },
+    "fancy": 32
+  },
+  {
+    "id": 8157,
+    "name": "Aloha",
+    "spirit": "Gin",
+    "difficulty": "Easy",
+    "description": "A cocktail with 1/2 oz dark rum and other ingredients.",
+    "ingredients": [
+      "1/2 oz dark rum",
+      "1/4 oz dry vermouth",
+      "1/4 oz cognac",
+      "1/4 oz gin",
+      "1/2 oz lime juice",
+      "1 oz soda water"
+    ],
+    "flavor": "Citrus",
+    "instructions": "Shake with ice cubes and strain into a large cocktail glass. Garnish with a lime wheel.",
+    "glass": "Cocktail Glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 5,
+      "relaxed": 9,
+      "romantic": 6,
+      "celebratory": 6,
+      "cozy": 7
+    },
+    "fancy": 36
+  },
+  {
+    "id": 11397,
+    "name": "French 75",
+    "spirit": "Gin",
+    "difficulty": "Easy",
+    "description": "A cocktail with 1 1/2 oz gin and other ingredients.",
+    "ingredients": [
+      "1 1/2 oz gin",
+      "2 tsp superfine sugar",
+      "1 1/2 oz lemon juice",
+      "4 oz chilled Champagne",
+      "1 slice orange",
+      "1 maraschino cherry"
+    ],
+    "flavor": "Sweet, Citrus, Fruity",
+    "instructions": "In a shaker half-filled with ice cubes, combine the gin, sugar, and lemon juice. Shake well. Pour into a collins glass. Top with the champagne. Stir well and garnish with the orange slice and the cherry.",
+    "glass": "Collins Glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 10,
+      "relaxed": 6,
+      "romantic": 6,
+      "celebratory": 6,
+      "cozy": 8
+    },
+    "fancy": 40
+  },
+  {
+    "id": 2154,
+    "name": "Frizzy Punch",
+    "spirit": "Whiskey",
+    "difficulty": "Easy",
+    "description": "A cocktail with 2 bottles everclear and other ingredients.",
+    "ingredients": [
+      "2 bottles Everclear",
+      "1 bottle Vodka",
+      "1 bottle Whiskey",
+      "5 gal Fruit punch",
+      "1 bag Ice"
+    ],
+    "flavor": "Complex",
+    "instructions": "Pour all of the ingredients in a trash can or large cooler. Stir until completely mixed.",
+    "glass": "Punch bowl",
+    "garnish": "None",
+    "moods": {
+      "energetic": 8,
+      "relaxed": 4,
+      "romantic": 7,
+      "celebratory": 7,
+      "cozy": 6
+    },
+    "fancy": 34
+  },
+  {
+    "id": 2006,
+    "name": "Fireman's Sour",
+    "spirit": "Rum",
+    "difficulty": "Easy",
+    "description": "A cocktail with 1 1/2 oz light rum and other ingredients.",
+    "ingredients": [
+      "1 1/2 oz Light rum",
+      "1 1/2 oz Lime juice",
+      "1/2 oz Grenadine",
+      "2 oz Club soda",
+      "1 Orange slice",
+      "1 Maraschino cherry"
+    ],
+    "flavor": "Citrus, Fruity",
+    "instructions": "In a shaker half-filled with ice cubes, combine the rum, lime juice, and grenadine. Shake well. Strain into a highball glass almost filled with ice cubes. Top with the club soda. Stir well. Garnish with the orange slice and the cherry.",
+    "glass": "Highball glass",
+    "garnish": "None",
+    "moods": {
+      "energetic": 3,
+      "relaxed": 9,
+      "romantic": 6,
+      "celebratory": 6,
+      "cozy": 8
+    },
+    "fancy": 34
+  },
+  {
+    "id": 6091,
+    "name": "Whop Me Down Sweet Jesus",
+    "spirit": "Vodka",
+    "difficulty": "Hard",
+    "description": "A cocktail cocktail with vodka",
+    "ingredients": [
+      "1 oz Vodka",
+      "1 oz Gin",
+      "1 oz Light rum",
+      "1 oz Tequila",
+      "1 oz Triple sec",
+      "1.5-2 oz Blue Curacao",
+      "Medium splash Sour mix",
+      "Medium splash 7-Up or sprite"
+    ],
+    "flavor": "Vodka, Cocktail",
+    "instructions": "Best in large mason jar. Blue going down Blue coming up.",
+    "glass": "Mason jar",
+    "garnish": "None specified",
+    "moods": {
+      "energetic": 10,
+      "relaxed": 5,
+      "romantic": 7,
+      "celebratory": 3,
+      "cozy": 9
+    },
+    "fancy": 34
+  },
+  {
+    "id": 6517,
+    "name": "Breath of God #2",
+    "spirit": "Rum",
+    "difficulty": "Medium",
+    "description": "A shot cocktail with rum",
+    "ingredients": [
+      "1/2 oz Bacardi(R) silver rum",
+      "1/2 oz Crown Royal(R) Canadian whisky",
+      "1/2 oz Wild Turkey(R) bourbon whiskey",
+      "1 splash cranberry juice",
+      "1/2 oz Bacardi(R) 151 rum"
+    ],
+    "flavor": "Rum, Shot",
+    "instructions": "\"Add the Bacardi silver rum, Crown Royal and Wild Turkey whiskeys to a cocktail shaker half-filled with ice cubes. Shake well and strain into a large shot glass or small old-fashioned/lowball glass. Splash cranberry juice on top, float the Bacardi 151 on top, and serve. There is a routine that you do while taking this shot. 1. Breath in deep2. Exhale ALL the air out3. Take the shot4. Immediately after the last drop is down inhale deep.5. Hold Breath6. Slowly let out air through nose. The headrush is phenomonal. If you do not know how to float a liquor well then you may mess this up.\"",
+    "glass": "Shot Glass",
+    "garnish": "None specified",
+    "moods": {
+      "energetic": 10,
+      "relaxed": 10,
+      "romantic": 7,
+      "celebratory": 2,
+      "cozy": 8
+    },
+    "fancy": 37
+  },
+  {
+    "id": 286,
+    "name": "Applejack (Jack Daniel's original recipe)",
+    "spirit": "Liqueur",
+    "difficulty": "Medium",
+    "description": "A cocktail cocktail with 1 part jack daniels",
+    "ingredients": [
+      "1 part Jack Daniels",
+      "2 parts Apple schnapps",
+      "1 part Sweet and sour",
+      "1 part Club soda"
+    ],
+    "flavor": "Liqueur, Cocktail",
+    "instructions": "Mix in glass on the rocks.",
+    "glass": "Old-fashioned glass",
+    "garnish": "None specified",
+    "moods": {
+      "energetic": 6,
+      "relaxed": 2,
+      "romantic": 9,
+      "celebratory": 5,
+      "cozy": 3
+    },
+    "fancy": 26
+  },
+  {
+    "id": 363,
+    "name": "Axelrod's Sweet Concoction",
+    "spirit": "Liqueur",
+    "difficulty": "Medium",
+    "description": "A cocktail cocktail with 1 2/3 oz amaretto",
+    "ingredients": [
+      "1 2/3 oz Amaretto",
+      "1 2/3 oz Peach schnapps",
+      "3/4 oz Dry Vermouth",
+      "4 oz Club soda"
+    ],
+    "flavor": "Liqueur, Cocktail",
+    "instructions": "Serve iced, stirred, not shaken",
+    "glass": "Cocktail glass",
+    "garnish": "None specified",
+    "moods": {
+      "energetic": 6,
+      "relaxed": 2,
+      "romantic": 9,
+      "celebratory": 5,
+      "cozy": 3
+    },
+    "fancy": 26
+  },
+  {
+    "id": 2545,
+    "name": "Grand Master",
+    "spirit": "Whiskey",
+    "difficulty": "Medium",
+    "description": "A cocktail cocktail with whiskey",
+    "ingredients": [
+      "2 oz Scotch",
+      "1/2 oz Peppermint schnapps",
+      "3 oz Club soda",
+      "1 twist of Lemon peel"
+    ],
+    "flavor": "Whiskey, Cocktail",
+    "instructions": "Pour the Scotch, schnapps, and soda into a highball glass almost filled with ice cubes. Stir well. Garnish with the lemon twist.",
+    "glass": "Highball glass",
+    "garnish": "None specified",
+    "moods": {
+      "energetic": 6,
+      "relaxed": 2,
+      "romantic": 9,
+      "celebratory": 5,
+      "cozy": 3
+    },
+    "fancy": 26
+  },
+  {
+    "id": 2664,
+    "name": "Hennyville Slugger",
+    "spirit": "Brandy",
+    "difficulty": "Easy",
+    "description": "A cocktail cocktail with brandy",
+    "ingredients": [
+      "5-7 oz Cognac (Hennessy)",
+      "3-4 oz Lemon-lime soda (Sprite)",
+      "Juice of 1/2 slice Lemon"
+    ],
+    "flavor": "Brandy, Cocktail",
+    "instructions": "Fill hiball glass with 5-7 ounces of cognac. Next, fill remainder of glass with lemon-lime soda. Finally, squeeze 1/2 of medium size lemon and garnish with 1/4 inch lemon wedges.",
+    "glass": "Highball glass",
+    "garnish": "None specified",
+    "moods": {
+      "energetic": 6,
+      "relaxed": 2,
+      "romantic": 9,
+      "celebratory": 5,
+      "cozy": 3
+    },
+    "fancy": 26
+  },
+  {
+    "id": 5907,
+    "name": "Venus on the Rocks",
+    "spirit": "Liqueur",
+    "difficulty": "Medium",
+    "description": "A cocktail cocktail with 1 oz amaretto",
+    "ingredients": [
+      "1 oz Amaretto",
+      "2 oz Peach schnapps",
+      "3 oz Club soda",
+      "5 Ice cubes",
+      "Twist of Lime peel"
+    ],
+    "flavor": "Liqueur, Cocktail",
+    "instructions": "The finished drink should be the golden color of perfectly tanned skin. Use this as a guide and don't get hung up on volume measurements.",
+    "glass": "Old-fashioned glass",
+    "garnish": "None specified",
+    "moods": {
+      "energetic": 6,
+      "relaxed": 2,
+      "romantic": 9,
+      "celebratory": 5,
+      "cozy": 3
+    },
+    "fancy": 26
+  }
+]
