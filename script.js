@@ -147,18 +147,32 @@ class ThinkDrinkApp {
     }
     
     resetMoods() {
-        document.querySelectorAll('.mood-slider').forEach(slider => {
+        console.log('Resetting all mood sliders to 5...');
+        const sliders = document.querySelectorAll('.mood-slider');
+        console.log(`Found ${sliders.length} mood sliders to reset`);
+        
+        sliders.forEach((slider, index) => {
+            console.log(`Resetting slider ${index + 1} (${slider.dataset.mood}) to 5`);
             slider.value = 5;
             this.updateMoodSlider(slider);
         });
+        
+        console.log('All sliders reset to 5');
     }
     
     randomMoods() {
-        document.querySelectorAll('.mood-slider').forEach(slider => {
+        console.log('Randomizing all mood sliders...');
+        const sliders = document.querySelectorAll('.mood-slider');
+        console.log(`Found ${sliders.length} mood sliders`);
+        
+        sliders.forEach((slider, index) => {
             const randomValue = Math.floor(Math.random() * 10) + 1;
+            console.log(`Slider ${index + 1} (${slider.dataset.mood}): setting to ${randomValue}`);
             slider.value = randomValue;
             this.updateMoodSlider(slider);
         });
+        
+        console.log('All sliders randomized');
     }
     
     getCurrentMoodValues() {
