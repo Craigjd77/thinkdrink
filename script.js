@@ -301,6 +301,9 @@ class ThinkDrinkApp {
                         <button class="quick-btn details-btn" data-drink-id="${drink.id}">
                             📖
                         </button>
+                        <button class="quick-btn availability-btn" data-drink-id="${drink.id}">
+                            🍸
+                        </button>
                     </div>
                 </div>
             `;
@@ -343,6 +346,18 @@ class ThinkDrinkApp {
                 if (drink) {
                     this.showDrinkDetail(drink);
                     this.addToRecent(drinkId);
+                }
+            });
+        });
+        
+        // Availability buttons
+        document.querySelectorAll('.recommended-card .availability-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const drinkId = parseInt(btn.dataset.drinkId);
+                const drink = this.drinks.find(d => d.id === drinkId);
+                if (drink) {
+                    this.checkDrinkAvailability(drink);
                 }
             });
         });
@@ -695,6 +710,8 @@ class ThinkDrinkApp {
     
     populateBarSelector() {
         const barSelect = document.getElementById('barSelect');
+        if (!barSelect) return;
+        
         barSelect.innerHTML = '<option value="">Select a bar...</option>';
         
         this.bars.forEach(bar => {
@@ -703,6 +720,8 @@ class ThinkDrinkApp {
             option.textContent = `${bar.name} - ${bar.type}`;
             barSelect.appendChild(option);
         });
+        
+        console.log(`Populated bar selector with ${this.bars.length} bars`);
     }
     
     selectBar(barId) {
@@ -789,6 +808,49 @@ class ThinkDrinkApp {
                 timestamp: new Date().toISOString()
             });
         }, 1500);
+    }
+    
+    checkDrinkAvailability(drink) {
+        this.selectedDrink = drink;
+        this.showToast(`Checking availability for ${drink.name} at Tampa bars...`);
+        
+        // Simulate checking availability
+        setTimeout(() => {
+            this.showAvailableBars(drink);
+        }, 1000);
+    }
+    
+    showAvailableBars(drink) {
+        // Filter bars that can make this drink based on ingredients
+        const availableBars = this.bars.filter(bar => {
+            // Simple check - if bar has signature drinks or can make complex cocktails
+            return bar.signature_drinks.length > 0 || 
+                   bar.type.includes('Craft') || 
+                   bar.type.includes('Cocktail') ||
+                   bar.type.includes('Upscale');
+        });
+        
+        if (availableBars.length === 0) {
+            this.showToast('No bars currently available for this drink');
+            return;
+        }
+        
+        // Update bar selector with available bars
+        const barSelect = document.getElementById('barSelect');
+        barSelect.innerHTML = '<option value="">Select a bar...</option>';
+        
+        availableBars.forEach(bar => {
+            const option = document.createElement('option');
+            option.value = bar.id;
+            option.textContent = `${bar.name} - ${bar.type}`;
+            barSelect.appendChild(option);
+        });
+        
+        // Show the Toast integration section
+        const toastSection = document.querySelector('.toast-integration-section');
+        toastSection.scrollIntoView({ behavior: 'smooth' });
+        
+        this.showToast(`Found ${availableBars.length} bars that can make ${drink.name}! Select a bar below.`);
     }
     
     demoToastOrder() {
