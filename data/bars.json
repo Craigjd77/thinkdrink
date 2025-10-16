@@ -1,0 +1,122 @@
+[
+  {
+    "id": "tampa_1",
+    "name": "The Columbia Restaurant",
+    "address": "2117 E 7th Ave, Tampa, FL 33605",
+    "type": "Upscale Restaurant & Bar",
+    "specialty": "Spanish & Cuban cocktails",
+    "phone": "(813) 248-4961",
+    "website": "https://columbiarestaurant.com",
+    "toast_merchant_id": "demo_tampa_001",
+    "signature_drinks": ["Sangria", "Cuban Mojito", "Spanish Manhattan"],
+    "mood_profile": {
+      "energetic": 6,
+      "relaxed": 8,
+      "romantic": 9,
+      "celebratory": 7,
+      "cozy": 9
+    },
+    "hours": "11:00 AM - 10:00 PM",
+    "price_range": "$$$"
+  },
+  {
+    "id": "tampa_2", 
+    "name": "The Ritz Ybor",
+    "address": "1503 E 7th Ave, Tampa, FL 33605",
+    "type": "Nightclub & Bar",
+    "specialty": "Craft cocktails & live music",
+    "phone": "(813) 247-3318",
+    "website": "https://theritzybor.com",
+    "toast_merchant_id": "demo_tampa_002",
+    "signature_drinks": ["Ybor City Mule", "Cigar City Old Fashioned", "Tampa Bay Breeze"],
+    "mood_profile": {
+      "energetic": 9,
+      "relaxed": 4,
+      "romantic": 6,
+      "celebratory": 10,
+      "cozy": 3
+    },
+    "hours": "7:00 PM - 2:00 AM",
+    "price_range": "$$"
+  },
+  {
+    "id": "tampa_3",
+    "name": "The Bricks of Ybor",
+    "address": "1327 E 7th Ave, Tampa, FL 33605",
+    "type": "Sports Bar & Grill",
+    "specialty": "Beer & casual cocktails",
+    "phone": "(813) 247-1785",
+    "website": "https://thebricksybor.com",
+    "toast_merchant_id": "demo_tampa_003",
+    "signature_drinks": ["Ybor Mule", "Tampa Bay Punch", "Brick House Margarita"],
+    "mood_profile": {
+      "energetic": 8,
+      "relaxed": 6,
+      "romantic": 3,
+      "celebratory": 8,
+      "cozy": 5
+    },
+    "hours": "11:00 AM - 12:00 AM",
+    "price_range": "$$"
+  },
+  {
+    "id": "tampa_4",
+    "name": "The Sail Pavilion",
+    "address": "333 S Franklin St, Tampa, FL 33602",
+    "type": "Waterfront Bar",
+    "specialty": "Tropical cocktails with bay views",
+    "phone": "(813) 223-8111",
+    "website": "https://sailpavilion.com",
+    "toast_merchant_id": "demo_tampa_004",
+    "signature_drinks": ["Sunset Sail", "Bay Breeze", "Tampa Tiki Punch"],
+    "mood_profile": {
+      "energetic": 7,
+      "relaxed": 9,
+      "romantic": 8,
+      "celebratory": 6,
+      "cozy": 7
+    },
+    "hours": "11:00 AM - 11:00 PM",
+    "price_range": "$$$"
+  },
+  {
+    "id": "tampa_5",
+    "name": "The Hub Bar",
+    "address": "719 N Franklin St, Tampa, FL 33602",
+    "type": "Craft Cocktail Bar",
+    "specialty": "Artisanal cocktails & small plates",
+    "phone": "(813) 223-1234",
+    "website": "https://thehubtampa.com",
+    "toast_merchant_id": "demo_tampa_005",
+    "signature_drinks": ["Hub Old Fashioned", "Tampa Negroni", "Franklin Street Fizz"],
+    "mood_profile": {
+      "energetic": 6,
+      "relaxed": 8,
+      "romantic": 7,
+      "celebratory": 6,
+      "cozy": 9
+    },
+    "hours": "4:00 PM - 1:00 AM",
+    "price_range": "$$$"
+  },
+  {
+    "id": "tampa_6",
+    "name": "Yeoman's Cask & Lion",
+    "address": "2502 N Dale Mabry Hwy, Tampa, FL 33607",
+    "type": "British Pub",
+    "specialty": "British ales & classic cocktails",
+    "phone": "(813) 879-8111",
+    "website": "https://yeomanscaskandlion.com",
+    "toast_merchant_id": "demo_tampa_006",
+    "signature_drinks": ["British Mule", "London Fog", "Dale Mabry Martini"],
+    "mood_profile": {
+      "energetic": 5,
+      "relaxed": 9,
+      "romantic": 6,
+      "celebratory": 5,
+      "cozy": 10
+    },
+    "hours": "11:00 AM - 2:00 AM",
+    "price_range": "$$"
+  }
+]

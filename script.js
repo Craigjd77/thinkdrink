@@ -2,11 +2,14 @@
 class ThinkDrinkApp {
     constructor() {
         this.drinks = [];
+        this.bars = [];
         this.filteredDrinks = [];
         this.recommendedDrinks = [];
         this.favorites = JSON.parse(localStorage.getItem('thinkdrink_favorites') || '[]');
         this.recent = JSON.parse(localStorage.getItem('thinkdrink_recent') || '[]');
         this.currentMood = null;
+        this.selectedBar = null;
+        this.selectedDrink = null;
         this.currentFilters = {
             spirit: 'all',
             difficulty: 'all',
@@ -19,10 +22,12 @@ class ThinkDrinkApp {
     
     async init() {
         await this.loadDrinks();
+        await this.loadBars();
         this.setupEventListeners();
         this.generateRecommendations();
         this.renderRecommended();
         this.updateStats();
+        this.populateBarSelector();
     }
     
     async loadDrinks() {
@@ -39,6 +44,20 @@ class ThinkDrinkApp {
             // Fallback to sample data
             this.drinks = this.getSampleDrinks();
             this.filteredDrinks = [...this.drinks];
+        }
+    }
+    
+    async loadBars() {
+        try {
+            const response = await fetch('data/bars.json');
+            if (!response.ok) {
+                throw new Error('Failed to load bars data');
+            }
+            this.bars = await response.json();
+        } catch (error) {
+            console.error('Error loading bars:', error);
+            this.showToast('Failed to load bars data');
+            this.bars = [];
         }
     }
     
@@ -127,6 +146,19 @@ class ThinkDrinkApp {
         // Profile button
         document.getElementById('profileBtn').addEventListener('click', () => {
             this.showProfile();
+        });
+        
+        // Toast integration event listeners
+        document.getElementById('barSelect').addEventListener('change', (e) => {
+            this.selectBar(e.target.value);
+        });
+        
+        document.getElementById('placeOrderBtn').addEventListener('click', () => {
+            this.placeToastOrder();
+        });
+        
+        document.getElementById('demoOrderBtn').addEventListener('click', () => {
+            this.demoToastOrder();
         });
     }
     
@@ -659,6 +691,133 @@ class ThinkDrinkApp {
         setTimeout(() => {
             toast.classList.remove('show');
         }, 3000);
+    }
+    
+    populateBarSelector() {
+        const barSelect = document.getElementById('barSelect');
+        barSelect.innerHTML = '<option value="">Select a bar...</option>';
+        
+        this.bars.forEach(bar => {
+            const option = document.createElement('option');
+            option.value = bar.id;
+            option.textContent = `${bar.name} - ${bar.type}`;
+            barSelect.appendChild(option);
+        });
+    }
+    
+    selectBar(barId) {
+        if (!barId) {
+            document.getElementById('selectedBarInfo').style.display = 'none';
+            document.getElementById('toastOrderDemo').style.display = 'none';
+            this.selectedBar = null;
+            return;
+        }
+        
+        this.selectedBar = this.bars.find(bar => bar.id === barId);
+        if (!this.selectedBar) return;
+        
+        // Update bar info display
+        document.getElementById('barName').textContent = this.selectedBar.name;
+        document.getElementById('barType').textContent = this.selectedBar.type;
+        document.getElementById('barAddress').textContent = this.selectedBar.address;
+        document.getElementById('barHours').textContent = `Hours: ${this.selectedBar.hours}`;
+        document.getElementById('barSpecialty').textContent = `Specialty: ${this.selectedBar.specialty}`;
+        
+        // Calculate mood match score
+        const currentMoods = this.getCurrentMoodValues();
+        const barMoods = this.selectedBar.mood_profile;
+        let matchScore = 0;
+        let totalPossible = 0;
+        
+        Object.keys(currentMoods).forEach(mood => {
+            const userPref = currentMoods[mood];
+            const barScore = barMoods[mood];
+            matchScore += Math.min(userPref, barScore);
+            totalPossible += 10;
+        });
+        
+        const matchPercentage = Math.round((matchScore / totalPossible) * 100);
+        document.getElementById('moodMatchScore').textContent = `${matchPercentage}% mood match`;
+        
+        document.getElementById('selectedBarInfo').style.display = 'block';
+        
+        // Show order demo if we have a recommended drink
+        if (this.recommendedDrinks.length > 0) {
+            this.selectedDrink = this.recommendedDrinks[0];
+            this.showOrderDemo();
+        }
+    }
+    
+    showOrderDemo() {
+        if (!this.selectedBar || !this.selectedDrink) return;
+        
+        // Update order details
+        document.getElementById('orderDrinkName').textContent = this.selectedDrink.name;
+        
+        // Generate realistic price based on drink complexity and bar type
+        let basePrice = 8;
+        if (this.selectedDrink.difficulty === 'Hard') basePrice += 3;
+        if (this.selectedDrink.difficulty === 'Medium') basePrice += 1;
+        
+        // Adjust for bar type
+        if (this.selectedBar.type.includes('Upscale') || this.selectedBar.type.includes('Craft')) basePrice += 2;
+        if (this.selectedBar.type.includes('Sports') || this.selectedBar.type.includes('Pub')) basePrice -= 1;
+        
+        const price = `$${basePrice}.00`;
+        document.getElementById('orderDrinkPrice').textContent = price;
+        document.getElementById('orderTotal').textContent = price;
+        
+        document.getElementById('toastOrderDemo').style.display = 'block';
+    }
+    
+    placeToastOrder() {
+        if (!this.selectedBar || !this.selectedDrink) {
+            this.showToast('Please select a bar and drink first');
+            return;
+        }
+        
+        // Simulate Toast API call
+        this.showToast('Connecting to Toast POS...');
+        
+        setTimeout(() => {
+            this.showToast('Order sent to bar successfully! 🍸');
+            console.log('Toast Order:', {
+                merchant_id: this.selectedBar.toast_merchant_id,
+                bar_name: this.selectedBar.name,
+                drink: this.selectedDrink.name,
+                price: document.getElementById('orderDrinkPrice').textContent,
+                timestamp: new Date().toISOString()
+            });
+        }, 1500);
+    }
+    
+    demoToastOrder() {
+        if (!this.selectedBar || !this.selectedDrink) {
+            this.showToast('Please select a bar and drink first');
+            return;
+        }
+        
+        this.showToast('🎬 Demo Mode: Order would be sent to Toast POS');
+        
+        // Show demo order details
+        const orderDetails = {
+            merchant_id: this.selectedBar.toast_merchant_id,
+            bar_name: this.selectedBar.name,
+            bar_address: this.selectedBar.address,
+            drink_name: this.selectedDrink.name,
+            drink_ingredients: this.selectedDrink.ingredients,
+            drink_instructions: this.selectedDrink.instructions,
+            price: document.getElementById('orderDrinkPrice').textContent,
+            customer_mood: this.getCurrentMoodValues(),
+            timestamp: new Date().toISOString()
+        };
+        
+        console.log('Demo Toast Order:', orderDetails);
+        
+        // Show success message
+        setTimeout(() => {
+            this.showToast(`Demo order sent to ${this.selectedBar.name}! 🎉`);
+        }, 1000);
     }
 }
 
